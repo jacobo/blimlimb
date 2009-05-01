@@ -11,7 +11,7 @@ require 'irc'
 # HOST = 'irc.freenode.net'
 # CHAN = '#stagewtf'
 HOST = 'irc.mmm.com'
-CHAN = '#secret_stage'
+CHAN = '#decoy_stage'
 FROM = 'blim.limb'
 
 def debug(message=nil)
@@ -55,7 +55,7 @@ class BotPlayer
       rescue Exception => detail
           puts detail.message()
           print detail.backtrace.join("\n")
-          retry
+          # retry
       end
     end    
     # @socket.connect
