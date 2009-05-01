@@ -42,7 +42,7 @@ class IRC
     def handle_server_input(s)
         # This isn't at all efficient, but it shows what we can do with Ruby
         # (Dave Thomas calls this construct "a multiway if on steroids")
-        # puts ">> " + s.to_s
+        puts ">> " + s.to_s
         
         case s.strip
             when /^PING :(.+)$/i

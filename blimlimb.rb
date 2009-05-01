@@ -11,7 +11,7 @@ require 'irc'
 # HOST = 'irc.freenode.net'
 # CHAN = '#stagewtf'
 HOST = 'irc.mmm.com'
-CHAN = '#subtle_stage'
+CHAN = '#secret_stage'
 FROM = 'blim.limb'
 
 def debug(message=nil)
@@ -92,8 +92,11 @@ class BotPlayer
     @socket.send("NICK #{@nick}")
   end
   def quit(message)
-    debug("quit #{message}")
-    @socket.send "QUIT :#{message}"
+    # debug("quit #{message}")
+    action(message)
+    @socket.send "QUIT"
+    # @socket.send "QUIT :#{message}"
+    # @socket.send "PART #{CHAN} :#{message}"
     # @socket.shutdown
   end
 end
@@ -147,7 +150,7 @@ class BotTroupe
         sleep $1.to_i
       #* pick a volunteer
       #parse standard in for stuff
-      #end it with a \
+      #end it with a *
       when /^\*\s+(.+?)$/
         puts "--- okay, _why: your console - #$1 ---"
         while true
