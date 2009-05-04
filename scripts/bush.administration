@@ -1,8 +1,11 @@
-[a] Announcer
-[W] W
-[s] slideshowmachinething
-a: Introducing: GEORGE W. BUSH:THE END-OF-THE-ADMINISTRATIONSLIDE SHOW.
-a: By: BY SCOTT JACOBSON AND MIKE SACKS
+~intro
+~intro
+~title Introducing: GEORGE W. BUSH:THE END-OF-THE-ADMINISTRATIONSLIDE SHOW
+~author By: BY SCOTT JACOBSON AND MIKE SACKS
+~intro
+~part W,W
+~part s,slideshowmachinething
+~intro
 W: Thanks, White House folks. We can all agree the last eight years have been memorable as all get-out. I'd like y'all to join me in commemoratin' 'em with a brief presentation. Condi? Lights?
 W: Let's start the tuneage. "Life Is a Highway" by Rascal Flatts. Magical
 (s) 'click' 
@@ -14,13 +17,15 @@ W: Here's a picture a few seconds later. Same explodin' rug market. If I flip be
 (s) 'click' 
 W: Gonna keep flippin'. Tell me when to stop
 (s) 'click' 'click' 'click'
+(s) 'click' 
 W: OK, I'll stop
 (s) 'click' 
 W: Here's L. Paul Bremer. Next
+* audience participation time
 (s) 'click' 
 W: Aha! Karl Rove. I'm sure y'all have seen ol' Turdblossom shootin' his mouth off on Fox News. Good on ya, Turdblossom
 (s) 'click' 
-W: Here's Donald Rumsfeld?we're sad about Donald. Popped up on that show Intervention. I never heard of an addiction to spray paint. Finally tracked him down at a men's hotel in Dallas. Donald has his good days, Donald has his bad days
+W: Here's Donald Rumsfeld. we're sad about Donald. Popped up on that show Intervention. I never heard of an addiction to spray paint. Finally tracked him down at a men's hotel in Dallas. Donald has his good days, Donald has his bad days
 (s) 'click' 
 W: Katrina. Next
 (s) 'click' 
@@ -36,6 +41,7 @@ W: Here's one of the White House chipmunk. Sat outside my window, chatterin' awa
 W: No-Judge is dead now. Next
 (s) 'click' 
 W: Here're some bumper stickers they did of me. "Shave Bush in '04." Don't care for that. "Buck Fush." Heh-heh. OK, that one's clever
+* audience participation time
 (s) 'click' 
 W: That's Barney the dog
 (s) 'click' 
@@ -63,3 +69,9 @@ W: Dick Cheney's laughin'. Now Big Time's makin' shadow puppets! Makes me happy
 W: Huh. See that? "Life Is a Highway" ended. I timed this out perfect! Heh-heh!
 W: Condi? Lights?
 +10
+~outro
+~outro
+~outro
+THE END
+
+
