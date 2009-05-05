@@ -22,7 +22,7 @@ class IRC
     def connect()
         # Connect to the IRC server
         @irc = TCPSocket.open(@server, @port)
-        send "USER blah blah blah :blah blah"
+        send "USER bob bob bob :bob bob"
         send "NICK #{@nick}"
         send "JOIN #{@channel}"
     end

@@ -11,7 +11,7 @@ require 'irc'
 # HOST = 'irc.freenode.net'
 # CHAN = '#stagewtf'
 HOST = 'irc.mmm.com'
-CHAN = '#decoy_stage'
+CHAN = '#test_stage_stage'
 FROM = 'blim.limb'
 
 def debug(message=nil)
