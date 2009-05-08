@@ -144,7 +144,7 @@ class SuffixArrayReader
     class << @suffixes; self end.module_eval do 
       define_method(:[]) do |i|
         io.pos = base + i * 4
-        io.read(4).unpack("V")[0]
+        io.read(4).unpack("V")[0] rescue 0
       end
       define_method(:size){ nsuffixes }
     end

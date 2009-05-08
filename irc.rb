@@ -76,7 +76,10 @@ class IRC
         # Just keep on truckin' until we disconnect
         while true
             ready = select([@irc, $stdin], nil, nil, nil)
-            next if !ready
+            if !ready
+              sleep(0.1)
+              next
+            end
             for s in ready[0]
                 # if s == $stdin then
                 #     return if $stdin.eof

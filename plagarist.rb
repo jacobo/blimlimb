@@ -22,9 +22,11 @@ h_obj.search("a").each do |a_tag|
   if a_tag.inner_text == "MAIN PAGE"
     break
   end
-  unless a_tag.attributes["href"]["http"]
-    unless a_tag.attributes["href"]["mailto"]
-      articles_to_fetch << "http://mcsweeneys.net" + a_tag.attributes["href"]
+  if a_tag.attributes && a_tag.attributes["href"]
+    unless a_tag.attributes["href"]["http"]
+      unless a_tag.attributes["href"]["mailto"]
+        articles_to_fetch << "http://mcsweeneys.net" + a_tag.attributes["href"]
+      end
     end
   end
 end
@@ -68,184 +70,193 @@ end
 
 #Gave up at fetching #569: http://mcsweeneys.net/2006/12/6wholphin.html
 
+zero_supposed_to_be_at = articles_to_fetch.index("http://mcsweeneys.net/2009/5/1hahn.html")
+# puts "zero_supposed_to_be_at: " + zero_supposed_to_be_at.inspect
+# raise "end"
+
 articles_to_skip = [43,44,63,66,67,68,74,94,141,180,251,
     301,350,387,397,441,448,449,456,516,521,559,560]
+articles_to_skip.collect!{|i| i + zero_supposed_to_be_at }
 
-articles_to_fetch[569..-1].each do |article_url|
+articles_to_fetch[0..-1].each do |article_url|
   index = articles_to_fetch.index(article_url)
   if articles_to_skip.include?(index)
     next
   end
   puts "fetching ##{index}: #{article_url}"
-  contents = Net::HTTP.get(URI.parse(article_url))
-  h_obj = Hpricot(contents)
+  begin
+    contents = Net::HTTP.get(URI.parse(article_url))
+    h_obj = Hpricot(contents)
   
-  h1_texts = h_obj.search("h1").collect do |h1_tag|
-    text_found = []
-    h1_tag.each_child do |h1_child|
-      text_found << (" " + h1_child.inner_text + " ").strip
-    end
-    text_found.reject!{ |it| it.empty? }
-    text_found.join(" ")
-  end
-  
-  title = ""
-  author = ""
-  
-  if h1_texts.size >= 2
-    title = h1_texts[0]
-    author = h1_texts[1]
-  elsif h1_texts.size == 1
-    if h1_texts[0][0,2] == "BY"
-      author = h1_texts[0]
-      possible_title = h_obj.search("nobr")[0].inner_html
-      if possible_title["&nbsp;"]
-        possible_title = possible_title.gsub("<br />", "&nbsp;")
-        title = possible_title.split("&nbsp;").collect{ |txt| txt.gsub(/[^A-Z]/,"").strip }.join(" ")
-      else
-        raise "can't get a title out of #{possible_title}"
+    h1_texts = h_obj.search("h1").collect do |h1_tag|
+      text_found = []
+      h1_tag.each_child do |h1_child|
+        text_found << (" " + h1_child.inner_text + " ").strip
       end
-    else
+      text_found.reject!{ |it| it.empty? }
+      text_found.join(" ")
+    end
+  
+    title = ""
+    author = ""
+  
+    if h1_texts.size >= 2
       title = h1_texts[0]
-    
-      from = contents.index("BY")
-      to = contents.index("<!-- end byline-->")
-      if from && to
-        to = to - 1
-        search_in = contents[from..to]
-    
-        author = Hpricot(search_in).inner_text
-    
-        if author.size > 300
-          raise "that author is too long: #{from} - #{to} - title #{title} - author #{author}"
+      author = h1_texts[1]
+    elsif h1_texts.size == 1
+      if h1_texts[0][0,2] == "BY"
+        author = h1_texts[0]
+        possible_title = h_obj.search("nobr")[0].inner_html
+        if possible_title["&nbsp;"]
+          possible_title = possible_title.gsub("<br />", "&nbsp;")
+          title = possible_title.split("&nbsp;").collect{ |txt| txt.gsub(/[^A-Z]/,"").strip }.join(" ")
+        else
+          raise "can't get a title out of #{possible_title}"
         end
       else
-        raise "couldn't find author #{from} - #{to}"
+        title = h1_texts[0]
+    
+        from = contents.index("BY")
+        to = contents.index("<!-- end byline-->")
+        if from && to
+          to = to - 1
+          search_in = contents[from..to]
+    
+          author = Hpricot(search_in).inner_text
+    
+          if author.size > 300
+            raise "that author is too long: #{from} - #{to} - title #{title} - author #{author}"
+          end
+        else
+          raise "couldn't find author #{from} - #{to}"
+        end
       end
+    elsif h1_texts.size < 2
+      #TODO: when I run the full, don't raise?
+      raise "Not enough h1s found for #{article_url} (at #{index}). found #{h1_texts.inspect}"
     end
-  elsif h1_texts.size < 2
-    #TODO: when I run the full, don't raise?
-    raise "Not enough h1s found for #{article_url} (at #{index}). found #{h1_texts.inspect}"
-  end
     
   
-  puts "title: " + title.inspect
-  puts "author: " + author.inspect
+    puts "title: " + title.inspect
+    puts "author: " + author.inspect
 
-  # h_obj.search("p").each do |p_tag| 
-  #   puts "="*20
-  #   puts p_tag.inner_html
-  #   puts "="*20
-  # end
+    # h_obj.search("p").each do |p_tag| 
+    #   puts "="*20
+    #   puts p_tag.inner_html
+    #   puts "="*20
+    # end
   
-  # p_contents = h_obj.search("p").collect{ |p_tag| p_tag.inner_html }.join(" ")
+    # p_contents = h_obj.search("p").collect{ |p_tag| p_tag.inner_html }.join(" ")
   
-  start_index = contents.index("<!-- end byline-->")
-  unless start_index
-    start_index = contents.index("</h1>")
-    start_index = start_index + 5
-  end
-  end_index = contents.index("OTHER McSWEENEY'S FEATURES")
+    start_index = contents.index("<!-- end byline-->")
+    unless start_index
+      start_index = contents.index("</h1>")
+      start_index = start_index + 5
+    end
+    end_index = contents.index("OTHER McSWEENEY'S FEATURES")
   
-  # puts "start index: " + start_index.inspect
-  # puts "end_index: " + end_index.inspect
+    # puts "start index: " + start_index.inspect
+    # puts "end_index: " + end_index.inspect
   
-  unless start_index && end_index
-    raise "not found start_index #{start_index} end_index #{end_index}"
-  end
+    unless start_index && end_index
+      raise "not found start_index #{start_index} end_index #{end_index}"
+    end
   
-  story_contents = contents[start_index..end_index]
+    story_contents = contents[start_index..end_index]
   
-  # non_p_tags_stripped = story_contents.gsub(/<[\/p]{1}[^p]+[^>]*>/, "")
-  non_p_tags_stripped = story_contents.gsub(
-                                      /<[pP]{1}[^>]*>/,"%PP%").gsub(
-                                      /<\/[pP]{1}>/,"%PP%").gsub(
-                                      /<[^>]*>/, " ")
-  p_texts = non_p_tags_stripped.split("%PP%").collect{ |txt| txt.strip }.reject{ |txt| txt.empty? }
+    # non_p_tags_stripped = story_contents.gsub(/<[\/p]{1}[^p]+[^>]*>/, "")
+    non_p_tags_stripped = story_contents.gsub(
+                                        /<[pP]{1}[^>]*>/,"%PP%").gsub(
+                                        /<\/[pP]{1}>/,"%PP%").gsub(
+                                        /<[^>]*>/, " ")
+    p_texts = non_p_tags_stripped.split("%PP%").collect{ |txt| txt.strip }.reject{ |txt| txt.empty? }
   
-  # puts "p texts: " + p_texts.to_yaml
-  # non_p_tags_stripped_h_obj = Hpricot(non_p_tags_stripped)
+    # puts "p texts: " + p_texts.to_yaml
+    # non_p_tags_stripped_h_obj = Hpricot(non_p_tags_stripped)
   
-  # puts "non_p_tags_stripped:\n" + non_p_tags_stripped.to_s
+    # puts "non_p_tags_stripped:\n" + non_p_tags_stripped.to_s
    
-  # p_texts = []
-  # p_collector = Proc.new do |each_on|
-  #   each_on.each do |p_tag|
-  #     sub_ps = p_tag.search("p")
-  # 
-  #     puts "\n\n===="
-  #     puts "p_tag: " + p_tag.inspect
-  #     puts "\n++++++++++\n"
-  #     puts "sub ps: " + sub_ps.inspect
-  # 
-  #     if sub_ps.size > 0
-  #       p_collector.call(sub_ps)
-  #     else
-  #       p_texts << p_tag.inner_text.strip
-  #     end
-  #   end
-  # end
-  # p_collector.call(non_p_tags_stripped_h_obj.search("p"))
-  # p_texts.uniq!
-  # h_obj.search("p").each do |p_tag| 
-  #   sub_ps = p_tag.search("p")
-  #   if sub_ps.size > 0
-  #   end
-  #   p_texts << p_tag.inner_text.strip
-  # end
+    # p_texts = []
+    # p_collector = Proc.new do |each_on|
+    #   each_on.each do |p_tag|
+    #     sub_ps = p_tag.search("p")
+    # 
+    #     puts "\n\n===="
+    #     puts "p_tag: " + p_tag.inspect
+    #     puts "\n++++++++++\n"
+    #     puts "sub ps: " + sub_ps.inspect
+    # 
+    #     if sub_ps.size > 0
+    #       p_collector.call(sub_ps)
+    #     else
+    #       p_texts << p_tag.inner_text.strip
+    #     end
+    #   end
+    # end
+    # p_collector.call(non_p_tags_stripped_h_obj.search("p"))
+    # p_texts.uniq!
+    # h_obj.search("p").each do |p_tag| 
+    #   sub_ps = p_tag.search("p")
+    #   if sub_ps.size > 0
+    #   end
+    #   p_texts << p_tag.inner_text.strip
+    # end
   
-  # p_texts = non_p_tags_stripped_h_obj.search("p").collect{ |p_tag| p_tag.inner_text.strip }
+    # p_texts = non_p_tags_stripped_h_obj.search("p").collect{ |p_tag| p_tag.inner_text.strip }
   
-  # puts "p texts: " + p_texts.to_yaml
+    # puts "p texts: " + p_texts.to_yaml
   
-  # p_texts_reduced = []
-  # dash_dashys_found = 0
-  # p_texts.each_with_index do |p_text, index|
-  #   # puts "test: " + p_text.inspect
-  #   # if p_text["OTHER McSWEENEY'S FEATURES"]
-  #   #   puts "break on other features"
-  #   #   break
-  #   # elsif p_text == "- - - -"
-  #   #   puts "dashy found"
-  #   #   dash_dashys_found += 1
-  #   # elsif dash_dashys_found >= 2
-  #     #strip periods from the end of sentences
-  #     if p_text[-1,1] == "."
-  #       p_text = p_text[0...-1]
-  #     end
-  #     puts "p_text found:" + p_text.to_s
-  #     p_texts_reduced << p_text
-  #   # end
-  # end
+    # p_texts_reduced = []
+    # dash_dashys_found = 0
+    # p_texts.each_with_index do |p_text, index|
+    #   # puts "test: " + p_text.inspect
+    #   # if p_text["OTHER McSWEENEY'S FEATURES"]
+    #   #   puts "break on other features"
+    #   #   break
+    #   # elsif p_text == "- - - -"
+    #   #   puts "dashy found"
+    #   #   dash_dashys_found += 1
+    #   # elsif dash_dashys_found >= 2
+    #     #strip periods from the end of sentences
+    #     if p_text[-1,1] == "."
+    #       p_text = p_text[0...-1]
+    #     end
+    #     puts "p_text found:" + p_text.to_s
+    #     p_texts_reduced << p_text
+    #   # end
+    # end
   
-  contents_condensed = p_texts.join("\n")
+    contents_condensed = p_texts.join("\n")
   
-  article_size = contents_condensed.size
+    article_size = contents_condensed.size
   
-  # snippet = ""
-  # contents_condensed.split(" ")[]
+    # snippet = ""
+    # contents_condensed.split(" ")[]
   
-  downcase_title = title.downcase.strip.gsub(/[^a-z]/, ".")
+    downcase_title = title.downcase.strip.gsub(/[^a-z]/, ".")
   
-  # write_contents_to = File.join(File.dirname(__FILE__), "mit_waa", downcase_title+".html")
+    # write_contents_to = File.join(File.dirname(__FILE__), "mit_waa", downcase_title+".html")
   
-  write_info_to = File.join(File.dirname(__FILE__), "mit_waa", downcase_title+".yml")
+    write_info_to = File.join(File.dirname(__FILE__), "mit_waa2", downcase_title+".yml")
   
-  # puts "contents_condensed: \n" + contents_condensed.to_s
+    # puts "contents_condensed: \n" + contents_condensed.to_s
   
-  # File.open(write_contents_to, "w+") do |fp|
-  #   fp.write(contents)
-  # end
+    # File.open(write_contents_to, "w+") do |fp|
+    #   fp.write(contents)
+    # end
   
-  File.open(write_info_to, "w+") do |fp|
-    fp.write({
-      "title" => title,
-      "author" => author,
-      "downcase_title" => downcase_title,
-      "article_size" => article_size,
-      "article_url" => article_url,
-      "text" => contents_condensed
-    }.to_yaml)
+    File.open(write_info_to, "w+") do |fp|
+      fp.write({
+        "title" => title,
+        "author" => author,
+        "downcase_title" => downcase_title,
+        "article_size" => article_size,
+        "article_url" => article_url,
+        "text" => contents_condensed
+      }.to_yaml)
+    end
+  rescue => e
+    puts e.inspect
+    puts e.backtrace.join("\n")
   end
-  
 end

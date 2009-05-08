@@ -48,7 +48,7 @@ class Search
     end
   end
   
-  def find_most terms_array
+  def find_most(terms_array, search_pattern)
     # weights = Hash.new(1.0)
     # weights[0] = 10000000   # :uri
     # weights[1] = 10000000  # :body
@@ -69,11 +69,14 @@ class Search
         prev_terms.push(term)
       end
     end
-    combiner.call(5, 2)
-    combiner.call(4, 2)
-    combiner.call(3, 2)
-    combiner.call(2, 5)
-    combiner.call(1, 8)
+    search_pattern.each do |k,v|
+      combiner.call(k, v)      
+    end
+    # combiner.call(5, 2)
+    # combiner.call(4, 2)
+    # combiner.call(3, 2)
+    # combiner.call(2, 5)
+    # combiner.call(1, 8)
     
     to_return = []
     # results = []
