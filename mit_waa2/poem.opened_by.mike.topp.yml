@@ -1,0 +1,62 @@
+--- 
+lines: 
+- A.
+- |
+  
+
+- Muscle
+- B.
+- |
+  
+
+- Gills
+- C.
+- |
+  
+
+- Mantle
+- D.
+- |
+  
+
+- Palpi
+- E.
+- |
+  
+
+- Mouth
+- H.
+- |
+  
+
+- Anus
+- I.
+- |
+  
+
+- Intestine
+- L.
+- |
+  
+
+- Liver
+- |
+  
+
+downcase_name: poem.opened_by.mike.topp
+author: By Mike Topp
+title: Poem Opened
+text: |-
+  A. Muscle
+  B. Gills
+  C. Mantle
+  D. Palpi
+  E. Mouth
+  H. Anus
+  I. Intestine
+  L. Liver
+  &nbsp;
+  &nbsp;
+date: 06/06/99
+article_url: http://mcsweeneys.net/1999/06/04poem.html
+article_size: 90

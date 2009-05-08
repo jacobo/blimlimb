@@ -1,0 +1,505 @@
+--- 
+lines: 
+- BY  JOSHUAH BEARMAN
+- |
+  
+
+- "Q: It sounds like you're working out formulas to move heaven and earth?"
+- "Korycansky: You could put it that way."
+- "Q: Well, let me start by asking what your main interests are."
+- "Korycansky: These days I work mostly on astrodynamics and the impacts of asteroids and comets into planet atmospheres."
+- "Q: So, how did you come across the idea of modifying the Earth's orbit with asteroids?"
+- "Korycansky: My collaborators, Greg Laughlin and Fred Adams, were studying the future &#151; the far future &#151; of the universe."
+- |
+  
+
+- There's been, actually, some popular science writing based on the work they did.
+- |
+  
+
+- And what they found was that there is something on the order of a one in a million chance that the Earth itself, even in its own natural, unchanged orbit, would get captured in the gravity of a random star passing by and escape from the solar system.
+- |
+  
+
+- There's a small chance that in the next billion years, or five billion years, some other star will pass through our solar system.
+- "Q: There are errant stars sort of floating around."
+- "Korycansky: Well, stars are moving through the galaxy kind of like a crowd of people."
+- |
+  
+
+- And they have slightly different courses as they orbit, and they sometimes get too close.
+- |
+  
+
+- It's a rare occurrence that a star would come within, say, a few million miles, of another star.
+- |
+  
+
+- "For comparison: The Earth is ninety-three-million miles from the Sun."
+- |
+  
+
+- But it does happen.
+- "Q: That got you thinking about changing the orbits of planets?"
+- "Korycansky: Greg and I were talking about this whole thing one day, and Greg was already thinking about the idea of deliberately moving the Earth so as to preserve its current climate."
+- |
+  
+
+- I was the one who came up with the specific mechanism that we describe in the paper.
+- "Q: Can you describe that mechanism?"
+- "Korycansky: It involves repeated passes of large asteroids, or what are called Kuiper Belt objects, which are kind of like asteroids except that they are in the outer part of the solar system, beyond Neptune and Pluto."
+- |
+  
+
+- These objects are relatively recent discoveries; they were made mostly in the past ten years.
+- "Q: Are Kuiper Belt objects the things that people mistook for Planet X?"
+- "Korycansky: They're not quite big enough for Planet X, but people are starting to wonder if Pluto and its companion, which is called Charon, might be just be the biggest members of this class of objects."
+- |
+  
+
+- About twenty years ago, astronomers discovered that Pluto has a binary partner called Charon.
+- |
+  
+
+- "Q: Would Pluto not be a planet then?"
+- "Korycansky: Yes, there's been a bit of controversy as to whether Pluto should be downgraded from planet status."
+- "Q: They can't take away Pluto!"
+- "Korycansky: I know."
+- |
+  
+
+- Poor Pluto.
+- "Q: Even though Pluto is a double planet?"
+- |
+  
+
+- Pluto and his little buddy Charon must add up to a planet at least?
+- "Korycansky: Well, it's possible they'll find a Kuiper Belt object bigger than both, and then what happens?"
+- "Q: Got me."
+- |
+  
+
+- So getting back to Earth, how do we use these objects out there in the Kuiper Belt to move our orbit?
+- "Korycansky: What you have to do is find a candidate object and slow it down."
+- |
+  
+
+- These objects are mostly in circular orbits so they stay beyond Pluto all the time.
+- |
+  
+
+- They're not coming through here every so often like Halley's Comet.
+- |
+  
+
+- But if you slow one down, it will fall towards the inner solar system.
+- |
+  
+
+- So you would have to do something, like build a giant rocket on it &#151; a retrorocket &#151; to slow it down.
+- |
+  
+
+- And you do it so that as the object comes toward us, the timing is very precise and it passes close enough to Earth to grab it gravitationally and move it just slightly.
+- "Q: How big an object would you have to use?"
+- "Korycansky: We were thinking somewhere near a hundred kilometers."
+- "Q: Big."
+- "Korycansky: Yeah."
+- |
+  
+
+- That seems to be the typical size of Kuiper Belt objects.
+- "Q: How would this encounter work?"
+- "Korycansky: As the object passes Earth, there would be a kind of gravitational toggle between the two of them."
+- |
+  
+
+- If you do the geometry right, you'll give a certain amount of energy to the Earth and that will have the effect of enlarging the Earth's orbit by a tiny amount.
+- "Q: How much?"
+- "Korycansky: About thirty miles per encounter."
+- |
+  
+
+- It's a small jump each time, and you'd have to do it repeatedly.
+- "Q: How close would the object come?"
+- "Korycansky: About 10,000 miles away."
+- "Q: Ooh &#151; close."
+- |
+  
+
+- The Moon is 500,000 miles away.
+- |
+  
+
+- "Korycansky: Yeah."
+- "Q: If you're going to go all the way to some big rocks beyond Pluto and build rockets on them, why can't we just build a big rocket out in Bakersfield or somewhere and do it right here?"
+- "Korycansky: That's a good question."
+- |
+  
+
+- It's a matter of leverage.
+- |
+  
+
+- By doing the work, so to speak, in the outer solar system, you can save energy.
+- |
+  
+
+- It's a lot easier to take advantage of the gravitational dynamics that way.
+- |
+  
+
+- Way out in the Kuiper Belt, things move very slowly, so a small change in velocity out there translates into a big change in velocity in the inner solar system.
+- "Q: So, you're using the potential energy of these far away objects."
+- "Korycansky: In a sense."
+- |
+  
+
+- The other thing is that the gravitational slingshot idea is something that we have already put to use.
+- |
+  
+
+- The probes we send to the outer planets all use this technique.
+- |
+  
+
+- In fact, people today are working on relatively complex schemes to send missions to Jupiter or Saturn.
+- |
+  
+
+- They would leave Earth and then head to Venus and back to Earth, picking up energy along the way, and so on.
+- |
+  
+
+- They can get even more complicated than that.
+- |
+  
+
+- So, the slingshot is something we have experience with.
+- "Q: How much would you have to move the Earth's orbit out?"
+- "Korycansky: We imagined moving it to about where Mars is now."
+- |
+  
+
+- That's fifty million miles.
+- "Q: That's a lot of close calls with big asteroids."
+- "Korycansky: Yes."
+- |
+  
+
+- The idea is to do this over millions of years.
+- |
+  
+
+- Because you would want to keep pace with the very slow, gradual brightening of the sun.
+- "Q: That would mean we can't use this to get out of the global warming fix."
+- "Korycansky: That whole idea is a crock."
+- |
+  
+
+- Journalists keep talking, trying to add that in, but we were not thinking about global warming when we wrote this paper.
+- "Q: Why wouldn't it work in the short-term, besides the technological limitation that we can't go to the Kuiper belt and build a bunch of rockets?"
+- "Korycansky: First, I'm not sure how far you would need to move the Earth to compensate for global warming."
+- |
+  
+
+- It would be some fraction of a percent &#151; much less than our paper describes.
+- |
+  
+
+- Still, it would take some thousands of years to do it, by my calculations.
+- "Q: Then the cosmic palliative for global warming is not really a policy option available to the Bush administration."
+- "Korycansky: No. Addressing global warming will require a solution on Earth in the next hundred years."
+- |
+  
+
+- It's much more sensible, not to mention cheaper, to do things like tax carbon, plant trees, restrict emissions, develop better technology and other energy sources.
+- "Q: No briefings for Cheney?"
+- "Korycansky: No. There was an article in the London Observer about our paper, and the reporter added his own reference to global warming."
+- |
+  
+
+- That's how the rumor got started that we were suggesting changing the Earth's orbit to stem climate change.
+- "Q: Back to the dynamics of the \"gravitational assist\" mechanism in your paper. What about the moon? These objects could pull on the moon and screw up its orbit."
+- "Korycansky: The referee of the journal we published in asked us about that as well."
+- |
+  
+
+- And what seems more likely to us is that the moon will get left behind.
+- "Q: We can't just abandon the moon."
+- |
+  
+
+- No more tides, werewolves, or lunatics.
+- "Korycansky: Right."
+- |
+  
+
+- Well, we thought about having an extra set of encounters that target the moon and bring it along.
+- |
+  
+
+- In fact, some people have suggested that the moon acts to stabilize the tilt of the Earth.
+- |
+  
+
+- Right now the Earth's tilt is static at about twenty degrees.
+- |
+  
+
+- And if the moon weren't there, they think the Earth might tilt back and forth, which would dramatically change the climate and the seasons.
+- |
+  
+
+- So some suggest that the stability of the Earth's climate is governed by the moon acting as a kind of flywheel.
+- "Q: So we do need the moon."
+- "Korycansky: Could be."
+- "Q: You know the movie \"Armaggedon\"?"
+- "Korycansky: Yeah."
+- "Q: And \"Deep Impact\"?"
+- "Korycansky: Uh-huh."
+- "Q: In those movies, Earthlings had to send out a strike team to make a threatening asteroid go away."
+- |
+  
+
+- Could we use gravitational assistance to deflect a near-earth asteroid that was coming toward us?
+- "Korycansky: Possibly."
+- |
+  
+
+- I'm not sure, however, whether that would be the best way to do it.
+- |
+  
+
+- It might be better just to ram it.
+- |
+  
+
+- You could use one asteroid to physically deflect another.
+- "Q: Or I suppose that if you have the ability to go beyond Pluto and build rockets on asteroids, it would be easier to reach the offending asteroid near us, and build a rocket there to move it out of the way."
+- "Korycansky: True."
+- "Q: Not unlike \"Armaggedon."
+- "Korycansky: I guess."
+- "Q: In those movies, the danger was that a giant asteroid might hit the earth."
+- |
+  
+
+- But in your paper, you're talking about bringing lots and lots of even bigger objects right past us.
+- |
+  
+
+- What happens if the operation goes haywire?
+- "Korycansky: Well, it would have to be done very, very carefully."
+- |
+  
+
+- Before I expand on something like this, I should mention that we wrote the paper as an exploration of an idea.
+- |
+  
+
+- It is not a proposal.
+- |
+  
+
+- It's not even possible, actually, and won't be for some time.
+- "Q: It's like a thought experiment."
+- "Korycansky: Exactly."
+- |
+  
+
+- Something fun to theorize about and work out mathematically.
+- |
+  
+
+- But to answer the question, you could do the math precisely enough so as not to hit the earth.
+- "Q: Because 10,000 miles is close in cosmic, or even planetary terms."
+- "Korycansky: Quite close."
+- |
+  
+
+- The reason we suggested that proximity is that you can transfer more energy to the Earth.
+- |
+  
+
+- It's more efficient.
+- |
+  
+
+- But, you can't come too close because the approaching object will break up.
+- "Q: This all reminds me something else I wanted to ask you."
+- |
+  
+
+- One of the things I thought about when reading your paper is that the Earth's orbit is special, right?
+- |
+  
+
+- Unlike the other planets, we have steady, moderate temperatures, liquid water and water vapor, which means we can have an atmosphere, which provides oxygen, keeps out radiation, etc.
+- |
+  
+
+- "Korycansky: Yes."
+- |
+  
+
+- People have tried to figure out the "habitable zone" &#151; the distance from the sun in which life like ours could have developed. It seems that the habitable zone is not all that big, about 5% of our current orbit radius on either side. And that radius will change as the Sun heats up. It will move outside our current orbit. Thus the notion of moving the Earth to keep it in the habitable zone.
+- "Q: Well, when I first heard about your paper, it made me think of an episode of the Twilight Zone, where the Earth is spiraling slowly toward the sun, and everything is heating up."
+- |
+  
+
+- There's not enough electricity to power air conditioning anymore, and it's unbearably hot, and people are moving up to Canada because it's a little less hot there.
+- |
+  
+
+- The show builds this dramatic tension around the inevitability of Earth overheating.
+- |
+  
+
+- And then, the twist at the end is that the protagonist wakes up and in fact, the Earth is spiraling away from the sun.
+- |
+  
+
+- It's snowing outside, heating oil is too expensive, and people are moving to the tropics to try to warm up until it gets too cold there too.
+- |
+  
+
+- In both scenarios the underlying fear came from the knowledge that there was no recourse, no way to alter the Earth's orbit.
+- |
+  
+
+- Do you remember that episode?
+- "Korycansky: No, actually."
+- "Q: Ok."
+- |
+  
+
+- Getting back to the pitfalls &#151;
+- "Korycansky: There are a lot of details, I should say, that might make the whole idea unfeasible."
+- |
+  
+
+- It may be too much trouble, for one.
+- |
+  
+
+- And we may have miscalculated how much energy we would need to do things.
+- |
+  
+
+- There's also the risk.
+- |
+  
+
+- The timing has to be very precise.
+- |
+  
+
+- And another potential problem is that when you start fooling with orbits and planets, it's not clear how stable things would be.
+- "Q: They could become chaotic."
+- "Korycansky: Yes, and we have not looked into that in detail at all."
+- |
+  
+
+- I'm not even sure, really, if it's worth looking into.
+- |
+  
+
+- I'm not sure how much more of my time I want to spend on this project.
+- |
+  
+
+- I'm not planning on making a career out of studying this thing.
+- |
+  
+
+downcase_name: here.comes.the.sun..an.in..s.way_by.joshuah.bearma
+author: By Joshuah Bearman
+title: Here Comes the Sun, An Interview with Don Korycansky, on Moving Earth out of Harm's Way
+text: |-
+  BY  JOSHUAH BEARMAN
+  - - - -
+  Q: It sounds like you're working out formulas to move heaven and earth?
+  Korycansky: You could put it that way.
+  Q: Well, let me start by asking what your main interests are.
+  Korycansky: These days I work mostly on astrodynamics and the impacts of asteroids and comets into planet atmospheres.
+  Q: So, how did you come across the idea of modifying the Earth's orbit with asteroids?
+  Korycansky: My collaborators, Greg Laughlin and Fred Adams, were studying the future &#151; the far future &#151; of the universe. There's been, actually, some popular science writing based on the work they did. And what they found was that there is something on the order of a one in a million chance that the Earth itself, even in its own natural, unchanged orbit, would get captured in the gravity of a random star passing by and escape from the solar system. There's a small chance that in the next billion years, or five billion years, some other star will pass through our solar system.
+  Q: There are errant stars sort of floating around.
+  Korycansky: Well, stars are moving through the galaxy kind of like a crowd of people. And they have slightly different courses as they orbit, and they sometimes get too close. It's a rare occurrence that a star would come within, say, a few million miles, of another star. [For comparison: The Earth is ninety-three-million miles from the Sun.] But it does happen.
+  Q: That got you thinking about changing the orbits of planets?
+  Korycansky: Greg and I were talking about this whole thing one day, and Greg was already thinking about the idea of deliberately moving the Earth so as to preserve its current climate. I was the one who came up with the specific mechanism that we describe in the paper.
+  Q: Can you describe that mechanism?
+  Korycansky: It involves repeated passes of large asteroids, or what are called Kuiper Belt objects, which are kind of like asteroids except that they are in the outer part of the solar system, beyond Neptune and Pluto. These objects are relatively recent discoveries; they were made mostly in the past ten years.
+  Q: Are Kuiper Belt objects the things that people mistook for Planet X?
+  Korycansky: They're not quite big enough for Planet X, but people are starting to wonder if Pluto and its companion, which is called Charon, might be just be the biggest members of this class of objects. [About twenty years ago, astronomers discovered that Pluto has a binary partner called Charon.]
+  Q: Would Pluto not be a planet then?
+  Korycansky: Yes, there's been a bit of controversy as to whether Pluto should be downgraded from planet status.
+  Q: They can't take away Pluto!
+  Korycansky: I know. Poor Pluto.
+  Q: Even though Pluto is a double planet? Pluto and his little buddy Charon must add up to a planet at least?
+  Korycansky: Well, it's possible they'll find a Kuiper Belt object bigger than both, and then what happens?
+  Q: Got me. So getting back to Earth, how do we use these objects out there in the Kuiper Belt to move our orbit?
+  Korycansky: What you have to do is find a candidate object and slow it down. These objects are mostly in circular orbits so they stay beyond Pluto all the time. They're not coming through here every so often like Halley's Comet. But if you slow one down, it will fall towards the inner solar system. So you would have to do something, like build a giant rocket on it &#151; a retrorocket &#151; to slow it down. And you do it so that as the object comes toward us, the timing is very precise and it passes close enough to Earth to grab it gravitationally and move it just slightly.
+  Q: How big an object would you have to use?
+  Korycansky: We were thinking somewhere near a hundred kilometers.
+  Q: Big.
+  Korycansky: Yeah. That seems to be the typical size of Kuiper Belt objects.
+  Q: How would this encounter work?
+  Korycansky: As the object passes Earth, there would be a kind of gravitational toggle between the two of them. If you do the geometry right, you'll give a certain amount of energy to the Earth and that will have the effect of enlarging the Earth's orbit by a tiny amount.
+  Q: How much?
+  Korycansky: About thirty miles per encounter. It's a small jump each time, and you'd have to do it repeatedly.
+  Q: How close would the object come?
+  Korycansky: About 10,000 miles away.
+  Q: Ooh &#151; close. [The Moon is 500,000 miles away.]
+  Korycansky: Yeah.
+  Q: If you're going to go all the way to some big rocks beyond Pluto and build rockets on them, why can't we just build a big rocket out in Bakersfield or somewhere and do it right here?
+  Korycansky: That's a good question. It's a matter of leverage. By doing the work, so to speak, in the outer solar system, you can save energy. It's a lot easier to take advantage of the gravitational dynamics that way. Way out in the Kuiper Belt, things move very slowly, so a small change in velocity out there translates into a big change in velocity in the inner solar system.
+  Q: So, you're using the potential energy of these far away objects.
+  Korycansky: In a sense. The other thing is that the gravitational slingshot idea is something that we have already put to use. The probes we send to the outer planets all use this technique. In fact, people today are working on relatively complex schemes to send missions to Jupiter or Saturn. They would leave Earth and then head to Venus and back to Earth, picking up energy along the way, and so on. They can get even more complicated than that. So, the slingshot is something we have experience with.
+  Q: How much would you have to move the Earth's orbit out?
+  Korycansky: We imagined moving it to about where Mars is now. That's fifty million miles.
+  Q: That's a lot of close calls with big asteroids.
+  Korycansky: Yes. The idea is to do this over millions of years. Because you would want to keep pace with the very slow, gradual brightening of the sun.
+  Q: That would mean we can't use this to get out of the global warming fix.
+  Korycansky: That whole idea is a crock. Journalists keep talking, trying to add that in, but we were not thinking about global warming when we wrote this paper.
+  Q: Why wouldn't it work in the short-term, besides the technological limitation that we can't go to the Kuiper belt and build a bunch of rockets?
+  Korycansky: First, I'm not sure how far you would need to move the Earth to compensate for global warming. It would be some fraction of a percent &#151; much less than our paper describes. Still, it would take some thousands of years to do it, by my calculations.
+  Q: Then the cosmic palliative for global warming is not really a policy option available to the Bush administration.
+  Korycansky: No. Addressing global warming will require a solution on Earth in the next hundred years. It's much more sensible, not to mention cheaper, to do things like tax carbon, plant trees, restrict emissions, develop better technology and other energy sources.
+  Q: No briefings for Cheney?
+  Korycansky: No. There was an article in the London Observer about our paper, and the reporter added his own reference to global warming. That's how the rumor got started that we were suggesting changing the Earth's orbit to stem climate change.
+  Q: Back to the dynamics of the "gravitational assist" mechanism in your paper. What about the moon? These objects could pull on the moon and screw up its orbit.
+  Korycansky: The referee of the journal we published in asked us about that as well. And what seems more likely to us is that the moon will get left behind.
+  Q: We can't just abandon the moon. No more tides, werewolves, or lunatics.
+  Korycansky: Right. Well, we thought about having an extra set of encounters that target the moon and bring it along. In fact, some people have suggested that the moon acts to stabilize the tilt of the Earth. Right now the Earth's tilt is static at about twenty degrees. And if the moon weren't there, they think the Earth might tilt back and forth, which would dramatically change the climate and the seasons. So some suggest that the stability of the Earth's climate is governed by the moon acting as a kind of flywheel.
+  Q: So we do need the moon.
+  Korycansky: Could be.
+  Q: You know the movie "Armaggedon"?
+  Korycansky: Yeah.
+  Q: And "Deep Impact"?
+  Korycansky: Uh-huh.
+  Q: In those movies, Earthlings had to send out a strike team to make a threatening asteroid go away. Could we use gravitational assistance to deflect a near-earth asteroid that was coming toward us?
+  Korycansky: Possibly. I'm not sure, however, whether that would be the best way to do it. It might be better just to ram it. You could use one asteroid to physically deflect another.
+  Q: Or I suppose that if you have the ability to go beyond Pluto and build rockets on asteroids, it would be easier to reach the offending asteroid near us, and build a rocket there to move it out of the way.
+  Korycansky: True.
+  Q: Not unlike "Armaggedon."
+  Korycansky: I guess.
+  Q: In those movies, the danger was that a giant asteroid might hit the earth. But in your paper, you're talking about bringing lots and lots of even bigger objects right past us. What happens if the operation goes haywire?
+  Korycansky: Well, it would have to be done very, very carefully. Before I expand on something like this, I should mention that we wrote the paper as an exploration of an idea. It is not a proposal. It's not even possible, actually, and won't be for some time.
+  Q: It's like a thought experiment.
+  Korycansky: Exactly. Something fun to theorize about and work out mathematically. But to answer the question, you could do the math precisely enough so as not to hit the earth.
+  Q: Because 10,000 miles is close in cosmic, or even planetary terms.
+  Korycansky: Quite close. The reason we suggested that proximity is that you can transfer more energy to the Earth. It's more efficient. But, you can't come too close because the approaching object will break up.
+  Q: This all reminds me something else I wanted to ask you. One of the things I thought about when reading your paper is that the Earth's orbit is special, right? Unlike the other planets, we have steady, moderate temperatures, liquid water and water vapor, which means we can have an atmosphere, which provides oxygen, keeps out radiation, etc. &#151; and this is what allowed life to develop here.
+  Korycansky: Yes. People have tried to figure out the "habitable zone" &#151; the distance from the sun in which life like ours could have developed. It seems that the habitable zone is not all that big, about 5% of our current orbit radius on either side. And that radius will change as the Sun heats up. It will move outside our current orbit. Thus the notion of moving the Earth to keep it in the habitable zone.
+  Q: Well, when I first heard about your paper, it made me think of an episode of the Twilight Zone, where the Earth is spiraling slowly toward the sun, and everything is heating up. There's not enough electricity to power air conditioning anymore, and it's unbearably hot, and people are moving up to Canada because it's a little less hot there. The show builds this dramatic tension around the inevitability of Earth overheating. And then, the twist at the end is that the protagonist wakes up and in fact, the Earth is spiraling away from the sun. It's snowing outside, heating oil is too expensive, and people are moving to the tropics to try to warm up until it gets too cold there too. In both scenarios the underlying fear came from the knowledge that there was no recourse, no way to alter the Earth's orbit. Do you remember that episode?
+  Korycansky: No, actually.
+  Q: Ok. Getting back to the pitfalls &#151;
+  Korycansky: There are a lot of details, I should say, that might make the whole idea unfeasible. It may be too much trouble, for one. And we may have miscalculated how much energy we would need to do things. There's also the risk. The timing has to be very precise. And another potential problem is that when you start fooling with orbits and planets, it's not clear how stable things would be.
+  Q: They could become chaotic.
+  Korycansky: Yes, and we have not looked into that in detail at all. I'm not even sure, really, if it's worth looking into. I'm not sure how much more of my time I want to spend on this project. I'm not planning on making a career out of studying this thing.
+  &nbsp;
+  &nbsp;
+date: 04/19/02
+article_url: http://mcsweeneys.net/2002/04/19sun.html
+article_size: 12271

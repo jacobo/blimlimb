@@ -1,0 +1,159 @@
+--- 
+lines: 
+- BY  DAN DAVIS
+- |
+  
+
+- Ronnie,
+- I'm really, really busy here at work, and I don't have time to pick tonight's football game, so I was wondering if you'd be able to help me out.
+- |
+  
+
+- Rather than just arbitrarily picking a team for me, it would be better if you could simply program a random number generator to select numbers from 1-100.
+- |
+  
+
+- Any good programming book should have the info on how to do that, if you don't already know.
+- |
+  
+
+- There's a great book on programming by some guy called Donald Knut, or Knueth, or Knuet, or something like that, that you should check out if you're unsure.
+- |
+  
+
+- Harvard should have it in one of those libraries somewhere.
+- |
+  
+
+- I'm not sure which one, though.
+- |
+  
+
+- Anyway, once you've got the random number generator programmed, then all you have to do is just assign the even numbers to Tampa and the odd numbers to Detroit.
+- |
+  
+
+- Or the other way around, if that's easier.
+- |
+  
+
+- It shouldn't really matter statistically, although then again, if you're intentionally choosing one way or the other for some unknown reason, then that could potentially bias the result, so let's just go ahead and say odd numbers for Detroit.
+- |
+  
+
+- And of course, that means even numbers for Tampa.
+- |
+  
+
+- Anyhow, whichever team's numbers come up the most would then be the team I choose, unless of course some weird statistical improbability occurs.
+- |
+  
+
+- You should probably run the program a few hundred times, to get a proper sample size.
+- |
+  
+
+- But if a particularly significant result should appear, like, say, Detroit's numbers randomly coming up 20 times out of 100, 20 of course being Barry Sanders' number, then that would mean that obviously my pick would be Detroit, even though Tampa's numbers came up 80 times out of 100, a statistically overwhelming percentage.
+- |
+  
+
+- Well, actually, that's a bad example, because I'm pretty sure that 80 was Leroy Selmon's number.
+- |
+  
+
+- Or was it his brother, Dewey Selmon?
+- |
+  
+
+- Yeah, now that I think about it, Leroy Selmon's number was actually 63, so Dewey's number must've been 80.
+- |
+  
+
+- It doesn't matter either way, since they were both Buccaneers.
+- |
+  
+
+- But then if Tampa's number comes up 63 times, then obviously, that would be a sign that I should take the Bucs, since not only is the number generator "favoring" Tampa overwhelmingly, but it's doing so in such a way as to really freak out any numerology people, which pretty much all sports fans, and especially most football-pool-type gamblers, are, deep down, even if we don't admit it. So theoretically, the number 80 would indicate that I should take Tampa, but at the same time, the 20 for Detroit would indicate them. So I guess if that result actually happened, you'd need to run the whole thing again. But don't worry, that's pretty unlikely. But just in case, you probably shouldn't take any chances, so don't run the program an even 100 times. Now that I think of it, you could actually use the random-number-generating program to determine how many times to run the random-number-generating program, if you follow what I'm saying here. You'd just run the program once, giving you a random number from 1-100, and that number would then be the number of times you need to run the program with the numbers assigned to each team. Obviously, you'd have to throw out any really low results, or an even 100, should either come up, and run the thing again, but overall, this could save you a lot of time, so it's worth considering. Also, it'd make things a lot simpler for you if you merely added a few lines of code to "read out" all even results as the words "Tampa Bay" and the odd ones as "Detroit," especially if you're running the random number generator dozens and dozens of times. Which, frankly, you'd need to do to get a statistically viable sample. But really, I know you probably don't have time to sit there and check "X" number of randomly generated numbers, writing down on a separate sheet of paper how many numbers were even and how many were odd ("X" of course being a really big, irritatingly time-wasting number), so writing those extra few lines of code would really be worth the effort, I think.
+- |
+  
+
+- But it's your call.
+- |
+  
+
+- Anyway, again in the interest of saving time, don't worry about really obscure numerology coincidences, like, say, Detroit's number coming up 91 times out of 200, which could be considered significant because if you assign the letters of the alphabet numerical values, then add the letters in the word "DETROIT," the total would be 91. By the same token, "LIONS" would be 69, and "BARRY" would be 64.
+- |
+  
+
+- "\"FONTES\""
+- |
+  
+
+- But he was a pretty bad coach, and one of the Selmon brothers--the other one, not Dewey or Leroy--was the other one named Nigel?
+- |
+  
+
+- Maybe Newt, or something like that.
+- |
+  
+
+- But I don't think he played for Tampa, just in college at Oklahoma.
+- |
+  
+
+- But still, he's a Selmon, so the message is obvious--was number 79, so I guess if the number 79 comes up in any way, no matter the sample size, then I will take Tampa.
+- |
+  
+
+- I'd figure out the number value of key Buccaneer words, but like I said, I'm really swamped and I just don't have the time.
+- |
+  
+
+- If you do, then feel free to go right ahead, but like I said, just disregard any coincidences that come up in the whole numerical-value-assigned-to-numbers thing.
+- |
+  
+
+- Except 79.
+- |
+  
+
+- Like I said, 79 = Tampa, no matter what.
+- So I'd greatly appreciate it if you could do this for me and save me some time.
+- |
+  
+
+- Just email me back and let me know which team is the final pick.
+- |
+  
+
+- And if it's not too much trouble, could you attach the actual random number-generation results of the program too?
+- |
+  
+
+- I'd like to see your actual methodology.
+- |
+  
+
+- So in other words, please remember to show your work.
+- Thanks!
+- Dan
+- |
+  
+
+downcase_name: email.to.the.guy.who.runs.ootball.pool_by.dan.davi
+author: By Dan Davis
+title: Email to the Guy Who Runs the Football Pool
+text: |-
+  BY  DAN DAVIS
+  - - - -
+  Ronnie,
+  I'm really, really busy here at work, and I don't have time to pick tonight's football game, so I was wondering if you'd be able to help me out. Rather than just arbitrarily picking a team for me, it would be better if you could simply program a random number generator to select numbers from 1-100. Any good programming book should have the info on how to do that, if you don't already know. There's a great book on programming by some guy called Donald Knut, or Knueth, or Knuet, or something like that, that you should check out if you're unsure. Harvard should have it in one of those libraries somewhere. I'm not sure which one, though. Anyway, once you've got the random number generator programmed, then all you have to do is just assign the even numbers to Tampa and the odd numbers to Detroit. Or the other way around, if that's easier. It shouldn't really matter statistically, although then again, if you're intentionally choosing one way or the other for some unknown reason, then that could potentially bias the result, so let's just go ahead and say odd numbers for Detroit. And of course, that means even numbers for Tampa. Anyhow, whichever team's numbers come up the most would then be the team I choose, unless of course some weird statistical improbability occurs. You should probably run the program a few hundred times, to get a proper sample size. But if a particularly significant result should appear, like, say, Detroit's numbers randomly coming up 20 times out of 100, 20 of course being Barry Sanders' number, then that would mean that obviously my pick would be Detroit, even though Tampa's numbers came up 80 times out of 100, a statistically overwhelming percentage. Well, actually, that's a bad example, because I'm pretty sure that 80 was Leroy Selmon's number. Or was it his brother, Dewey Selmon? Yeah, now that I think about it, Leroy Selmon's number was actually 63, so Dewey's number must've been 80. It doesn't matter either way, since they were both Buccaneers. But then if Tampa's number comes up 63 times, then obviously, that would be a sign
+  that I should take the Bucs, since not only is the number generator "favoring" Tampa overwhelmingly, but it's doing so in such a way as to really freak out any numerology people, which pretty much all sports fans, and especially most football-pool-type gamblers, are, deep down, even if we don't admit it. So theoretically, the number 80 would indicate that I should take Tampa, but at the same time, the 20 for Detroit would indicate them. So I guess if that result actually happened, you'd need to run the whole thing again. But don't worry, that's pretty unlikely. But just in case, you probably shouldn't take any chances, so don't run the program an even 100 times. Now that I think of it, you could actually use the random-number-generating program to determine how many times to run the random-number-generating program, if you follow what I'm saying here. You'd just run the program once, giving you a random number from 1-100, and that number would then be the number of times you need to run the program with the numbers assigned to each team. Obviously, you'd have to throw out any really low results, or an even 100, should either come up, and run the thing again, but overall, this could save you a lot of time, so it's worth considering. Also, it'd make things a lot simpler for you if you merely added a few lines of code to "read out" all even results as the words "Tampa Bay" and the odd ones as "Detroit," especially if you're running the random number generator dozens and dozens of times. Which, frankly, you'd need to do to get a statistically viable sample. But really, I know you probably don't have time to sit there and check "X" number of randomly generated numbers, writing down on a separate sheet of paper how many numbers were even and how many were odd ("X" of course being a really big, irritatingly time-wasting number), so writing those extra few lines of code would really be worth the effort, I think. But it's your call. Anyway, again in the interest of saving time, don't worry about really obscure numerology coincidences, like, say, Detroit's number coming up 91 times out of 200, which could be considered significant because if you assign the letters of the alphabet numerical values, then add the letters in the word "DETROIT," the total would be 91. By the same token, "LIONS" would be 69, and "BARRY" would be 64. "FONTES" would be 79, but he doesn't coach there anymore, so it doesn't matter. But he was a pretty bad coach, and one of the Selmon brothers--the other one, not Dewey or Leroy--was the other one named Nigel? Maybe Newt, or something like that. But I don't think he played for Tampa, just in college at Oklahoma. But still, he's a Selmon, so the message is obvious--was number 79, so I guess if the number 79 comes up in any way, no matter the sample size, then I will take Tampa. I'd figure out the number value of key Buccaneer words, but like I said, I'm really swamped and I just don't have the time. If you do, then feel free to go right ahead, but like I said, just disregard any coincidences that come up in the whole numerical-value-assigned-to-numbers thing. Except 79. Like I said, 79 = Tampa, no matter what.
+  So I'd greatly appreciate it if you could do this for me and save me some time. Just email me back and let me know which team is the final pick. And if it's not too much trouble, could you attach the actual random number-generation results of the program too? I'd like to see your actual methodology. So in other words, please remember to show your work.
+  Thanks!
+  Dan
+  &nbsp;
+  &nbsp;
+date: 12/18/00
+article_url: http://mcsweeneys.net/2000/12/18football.html
+article_size: 5673

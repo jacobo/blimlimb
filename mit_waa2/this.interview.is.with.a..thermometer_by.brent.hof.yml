@@ -1,0 +1,618 @@
+--- 
+lines: 
+- BY BRENT HOFF
+- |
+  
+
+- "Note: Brent Hoff is the McSweeney's Science Editor."
+- |
+  
+
+- This interview is one of an ongoing series of discussions with notable persons in the sciences.
+- |
+  
+
+- This interview is real and is not funny.
+- |
+  
+
+- "Now a short glossary:"
+- "Temperature: The temperature of an object is a result of the kinetic energy of the atoms or molecules that make up the object."
+- |
+  
+
+- In other words, fast molecules = high kinetic energy = high temperature.
+- "Now the interview:"
+- INTERVIEWER
+- Dr. Adams, you've invented a thermometer.
+- |
+  
+
+- A thermometer that measures extremely cold temperatures as low as 0 degrees Kelvin or 458 degrees below Fahrenheit, correct?
+- DR.
+- |
+  
+
+- ADAMS
+- Not quite 0 degrees Kelvin (you can not get there), but as low as 0.0009 degree Kelvin.
+- INTERVIEWER
+- Why can't we "get there" -- to absolute 0 degrees Kelvin?
+- DR.
+- |
+  
+
+- ADAMS
+- Cooling to a lower temperature is a process of lowering the entropy.
+- |
+  
+
+- Entropy is a measure of the disorder or randomness of a system.
+- |
+  
+
+- "Interviewer's note: It helped us to think of entropy as a measure of motion."
+- |
+  
+
+- Because the entropy is approaching 0 regardless of the state of the material providing the cooling, the amount by which you can decrease the entropy (and the temperature) in one step gets smaller and smaller.
+- |
+  
+
+- Hence, the "finite number of steps.
+- "\" Perhaps the analogy of walking across a room to the opposite wall will help."
+- |
+  
+
+- If you cut your steps in half each time, you would have to take an infinite number of steps to reach the other side of the room.
+- |
+  
+
+- To make it clearer, you will require a course in thermodynamics!
+- |
+  
+
+- INTERVIEWER
+- So why do we need a thermometer that measures temperatures that don't even occur in nature?
+- |
+  
+
+- What are some of the potential benefits to be gained from doing research at very cold temperatures?
+- DR.
+- |
+  
+
+- ADAMS
+- Frequently, applications of this "basic" research do not occur until decades after it has occurred. Rarely does one have a "good enough crystal ball" to see that far in advance.
+- |
+  
+
+- For example, magnetic resonance imaging, which is a medical development of the last decade, started as a laboratory curiosity 50 years ago and depends on liquid helium provided by low temperature research.
+- |
+  
+
+- "Interviewer's note: MRI is a non-invasive way to scan brain activity."
+- |
+  
+
+- There are numerous other examples, e.g.
+- |
+  
+
+- Basic research is the goose laying the golden eggs, which are the applications.
+- |
+  
+
+- I should make the point that we don't go into this basic research because we expect to find applications.
+- |
+  
+
+- With every interview, there is over emphasis on applications (look at the Time article about absolute zero, the suggested applications are pure BS), which I suppose the public wants to know about.
+- |
+  
+
+- But our work is exploration!
+- |
+  
+
+- Why did Edmund Hillary climb Mt.
+- |
+  
+
+- Everest, why did we send a man to the moon, why have we spent billions on a Hubble Telescope, or effort to land vehicles/probes on the planets, etc.
+- |
+  
+
+- Do reporters ask about applications of a Mars probe?
+- |
+  
+
+- The applications in that case are zilch, although there may be spinoffs of the technology.
+- |
+  
+
+- We fight this battle continuously, including with funding agencies.
+- |
+  
+
+- In this very story of helium-3 melting pressure thermometry, a bad effect of the emphasis on technology has been abandonment of the work (and other fundamental research) by the former National Bureau of Standards when it was turned into industry-supporting National Institute of Standards and Technology.
+- |
+  
+
+- The melting pressure work was left to the Germans and university labs.
+- INTERVIEWER
+- What about cryogenics research?
+- DR.
+- |
+  
+
+- ADAMS
+- Perhaps you mean cryonics, or freezing of diseased bodies in the hope of  bringing them back to life when a cure for the disease is found.
+- |
+  
+
+- Unfortunately, freezing of the fluid-containing cells in the body destroys them, just like freezing water in a pipe.
+- INTERVIEWER
+- "Actually I meant cryogenics, the biopharmaceutical cryopreservation technology used for precisely controlled freezing and thawing of gene therapy products (which thereby increases the effective shelf life of biopharmaceuticals -- drugs made of, or delivered with genetic material) But since you brought it up, I guess we should get directly to the question that inspired this interview: If Mr. Freeze existed, and he shot Batman with his freeze gun set at ."
+- |
+  
+
+- Kelvin, what would happen to Batman's body?
+- DR.
+- |
+  
+
+- ADAMS
+- Freezing at 0.0009 K would destroy the fluid-filled cells just as it does now using liquid nitrogen at 77 K.
+- INTERVIEWER
+- Why do things turn blue when they get cold?
+- DR.
+- |
+  
+
+- ADAMS
+- This is not universally true.
+- |
+  
+
+- For example, a blue flame is hotter than a red or yellow one.
+- |
+  
+
+- Many other examples could be cited.
+- |
+  
+
+- For the most part, in cases where cold things are blue, the blue color does not have that much to do with cold.
+- |
+  
+
+- One example where it does is the human body.
+- |
+  
+
+- When it gets cold, the red blood near the surface of the skin recedes (leaving it blue), in order to keep the interior of the body warm, while allowing the skin  temperature to drop.
+- |
+  
+
+- In many situations, it is a matter of what happens to the blue and red (plus all colors of the rainbow) that make up white light.
+- |
+  
+
+- Icebergs and the ocean (cold or hot) are blue because water absorbs the red light more than the blue.
+- |
+  
+
+- The sky is blue because particles there scatter blue light more with the red light that makes it to the viewer down below.
+- INTERVIEWER
+- What is the temperature in your house and how closely do you monitor it?
+- DR.
+- |
+  
+
+- ADAMS
+- My house has four zones (different areas) that can be controlled independently by a microprocessor thermostat.
+- |
+  
+
+- "WINTERS: during the night, bed room is kept at 64 F, living areas are not heated; during the day, living area is kept at 70 F (mostly by passive solar), bedrooms are not heated."
+- |
+  
+
+- "SUMMER: during the night, bedroom is kept at 78, living area is not cooled; during the day, living area is kept at 78, bedrooms are not cooled."
+- |
+  
+
+- During fall and spring, no heating or cooling are required, energy efficient construction keeps house at comfortable temperature.
+- |
+  
+
+- Energy bill is about 1/4 of "normal house.
+- INTERVIEWER
+- Was it expensive to install?
+- |
+  
+
+- Why don't more people do that?
+- |
+  
+
+- Is it because they don't live in temperate climates like Florida?
+- |
+  
+
+- You couldn't survive a winter in Colorado without heating your bedroom.
+- |
+  
+
+- DR.
+- |
+  
+
+- ADAMS
+- Various energy efficient features added about 10 percent to the cost of my house.
+- |
+  
+
+- For almost every feature the calculated "pay back" time in term of reduced operating costs was about 5 years or less. So, it was actually a good investment. There has been a slow shift of interest to energy efficient housing, with the EPA energy star program and some builders are beginning to offer energy efficient houses. An impediment has been to try and keep the costs down to be "competitive.
+- INTERVIEWER
+- How careful do you have to be in your laboratory?
+- |
+  
+
+- What would happen if you   spilled some of that extremely cold liquid on you?
+- DR.
+- |
+  
+
+- ADAMS
+- Just ordinary precautions similar to what you would use with a hot liquid.
+- |
+  
+
+- The liquids we use, nitrogen and helium, are in containers and we transfer from these to our "dewars" through a special vacuum jacketed closed tube. Without some mishap you never come into contact with the liquid. However, in the unusual event that you do, you can get a nasty "burn," in which the skin can be frozen, which blisters just like a burn would.
+- INTERVIEWER
+- Your thermometer is called a Straty-Adams Gauge, named for yourself and your then-graduate student assistant Gerald Straty.
+- |
+  
+
+- How did the inspiration for it come about?
+- DR.
+- |
+  
+
+- ADAMS
+- Serendipity played a role.
+- |
+  
+
+- We were interested in the fundamental properties of liquid and solid helium-3, which can be investigated by measuring the melting pressure.
+- |
+  
+
+- We had developed a very sensitive pressure gauge for doing this (the Straty-Adams gauge).
+- |
+  
+
+- When we saw that the pressure, measured with our gauge, was much more sensitive than the  thermometer that we were using, the thought occurred to us to use the melting pressure as the thermometer.
+- |
+  
+
+- We did not go into it thinking "How can we develop a sensitive thermometer?
+- INTERVIEWER
+- How does a Straty-Adams gauge work?
+- DR.
+- |
+  
+
+- ADAMS
+- It has a diaphragm which deflects slightly as the pressure changes (like a balloon increasing in size as it is blown up).
+- |
+  
+
+- A metal plate is attached to the diaphragm, with a second one held very close to it (these form a "capacitor"). Capacitance changes can be measured with high precision, 1 out of 10,000,000 using a "bridge.
+- "\" This means that the gauge can resolve very small changes in pressure, corresponding to very small changes in temperature, a very desirable feature."
+- This works because the helium remains a liquid all the way to absolute zero, with the freezing pressure depending on the temperature.
+- |
+  
+
+- The properties of helium-3 are such that if the gauge is filled with just the right amount of helium at about 1 K, there will be a mixture of liquid and solid at any lower temperature.
+- |
+  
+
+- Then measuring the pressure gives the temperature if you know the relationship between pressure and temperature, i.e P(T).
+- |
+  
+
+- This is analogous to the expansion of the mercury column in a mercury thermometer.
+- |
+  
+
+- In addition to thermometry, the gauge has been used for many other studies of materials.
+- By the way, superfluidity in liquid helium-3, for which the 1996 Nobel prize was awarded, was discovered by Osheroff, Richardson, and Lee, using the Straty-Adams gauge to study the melting pressure.
+- |
+  
+
+- They would have not made the discovery without the Straty-Adams gauge.
+- INTERVIEWER
+- "I feel like I have to ask this: Why does helium make your voice even higher when you breathe it?"
+- |
+  
+
+- Do you ever inhale it at the office for laffs?
+- DR.
+- |
+  
+
+- ADAMS
+- We might do this occasionally to impress visitors when we have tours of the lab.
+- |
+  
+
+- It works not by affecting the vocal cords, but because the velocity of sound in helium is higher than in air.
+- INTERVIEWER
+- Back to the guage.
+- |
+  
+
+- Why does Straty get his name first?
+- |
+  
+
+- He's the graduate student, you're the professor.
+- |
+  
+
+- Shouldn't it be an "Adams-Straty" gauge?
+- DR.
+- |
+  
+
+- ADAMS
+- It is traditional in physics to give grad students and other junior personnel first billing, rather than the professor grabbing all the credit.
+- |
+  
+
+- After all, we are not actors who insist on top billing!
+- INTERVIEWER
+- I might have let that slide except that I know you have run into problems of peers squabbling like actors for top billing in the past.
+- |
+  
+
+- For instance, when some of your peers couldn't agree about the proper calibration of your scale, for instance.
+- |
+  
+
+- Two standards laboratories, the National Institute of Standards and Technology (NIST) in the United States, and the Physikalisch-Techische Bundesanstalt in Germany, each demand to use their own scale.
+- |
+  
+
+- This was just nationalistic political posturing right?
+- |
+  
+
+- Were you upset?
+- DR.
+- |
+  
+
+- ADAMS
+- It is not uncommon for two or more standards labs to be working on something such as this independently so there will be more than one number for comparison.
+- |
+  
+
+- A little history of this may be illuminating.
+- |
+  
+
+- Work on the making the melting pressure the standard started at NIST about 1985, with results first published about 1994.
+- |
+  
+
+- Unfortunately the NIST work went only to 0.006 K, short of the all-important "fixed points" at 0.0025 and 0.0009 K (see papers). So we decided to provide our own standard by incorporating  a "primary thermometer," one that does not need calibration, but uses the laws of physics, into our apparatus.
+- |
+  
+
+- Our results were published in 1995 and agreed with NIST in the region of overlap above 0.006 K. So we joined our scale to the NIST scale to provide a UF/NIST scale.
+- |
+  
+
+- The second scale >from PTB came out three years later.
+- |
+  
+
+- It has been subject to criticism by many, including myself and others from NIST, because it did not make use of a primary thermometer.
+- |
+  
+
+- Instead it used extrapolation of a secondary  thermometer (one which must be calibrated) from higher temperatures.
+- |
+  
+
+- Although the PTB scale was based on less than ideal thermometry, they had the benefit of being a "standards lab" and used this to argued vehemently that their scale should be adopted outright, ignoring the UF work.
+- |
+  
+
+- In fact, the UF work was the only in the world using a primary thermometer to measure the fixed points, which should have been a requirement for a  standard.
+- |
+  
+
+- A calculation by Marten Durieux and Les Reesink at Leiden University showed that the PTB results were not thermodynamically consistent, a crucial requirement.
+- |
+  
+
+- This convinced PTB that they would have to settle for an "average" between the UF/NIST scale and theirs. Actually, the difference is fairly small (lowest fixed point is to be T = 0.00090 K for ITS-2000, vs 0.00093 for UF and 0.00088 for PTB). So, yes I would say that there was some "posturing" by PTB to try to discredit the UF work and to have theirs adopted.
+- |
+  
+
+- Had we had the clout of a "standards lab" we would have argued adamantly that our numbers were the only ones to consider since  only we had used a primary thermometer.
+- |
+  
+
+- Re "was I upset," let's just say I was not pleased. However, there is considerable satisfaction in seeing our 35-year old idea finally to be the basis for ITS-2000!
+- INTERVIEWER
+- So your scale is coming up for approval in September at the ITS-2000 meeting in Paris.
+- |
+  
+
+- Do you predict any problems this time around?
+- DR.
+- |
+  
+
+- ADAMS
+- Since there is no dissension in Working Group Four on its recommendation,  lack of approval by CCT in Paris in April and subsequently by ICMW in  September is exceedingly unlikely.
+- INTERVIEWER
+- Do scientists wield too little, or too much power in our society?
+- DR.
+- |
+  
+
+- ADAMS
+- From my perspective, I would say that it is usually too little.
+- |
+  
+
+- Most decisions on what to do about problems for which there is a scientific answer get decided on the politics not the science -- e.g.
+- |
+  
+
+- Scientists are usually in the role of providing the information, but letting the politicians make the decisions.
+- |
+  
+
+- Sometimes the more venturesome ones take up a cause and advocate a solution, such as in my pushing recycling and other alternatives to land-filling and incineration of wastes.
+- INTERVIEWER
+- What's next?
+- |
+  
+
+- What will you be working on in the future?
+- DR.
+- |
+  
+
+- ADAMS
+- Most of the work is on magnetism of solid helium-3, to determine what type of behavior occurs when the disruptive thermal motion has been reduced to as little as possible by going to lower temperatures, e.g.
+- |
+  
+
+- INTERVIEWER
+- You know the snowy tree cricket, whose chirping song resembles gently ringing sleigh bells, can also be used to calculate the temperature.
+- |
+  
+
+- The rate of their chirp is invariably a function of how warm it is) Have you ever thought of using microorganisms or other bio- material to measure extremely low temperatures?
+- DR.
+- |
+  
+
+- ADAMS.
+- I'm familiar with the "cricket temperature scale," but never thought of using anything of this sort. I doubt that there are any that would function at the low temperatures that we reach. If there is water in the cells, they might be destroyed upon freezing. So we tend to think in terms of some temperature-dependent physical parameter.
+- INTERVIEWER
+- Oh.
+- |
+  
+
+downcase_name: this.interview.is.with.a..thermometer_by.brent.hof
+author: By Brent Hoff
+title: This interview is with a physicist named Dr. Dwight Adams, Professor of Physics at the Center for Low Temperature Research at the University of Florida, who invented the world's coldest temperature-measuring thermometer
+text: |-
+  BY BRENT HOFF
+  - - - -
+  [Note: Brent Hoff is the McSweeney's Science Editor. This interview is one of an ongoing series of discussions with notable persons in the sciences. This interview is real and is not funny.]
+  Now a short glossary:
+  Temperature: The temperature of an object is a result of the kinetic energy of the atoms or molecules that make up the object. In other words, fast molecules = high kinetic energy = high temperature.
+  Now the interview:
+  INTERVIEWER
+  Dr. Adams, you've invented a thermometer. A thermometer that measures extremely cold temperatures as low as 0 degrees Kelvin or 458 degrees below Fahrenheit, correct?
+  DR. ADAMS
+  Not quite 0 degrees Kelvin (you can not get there), but as low as 0.0009 degree Kelvin.
+  INTERVIEWER
+  Why can't we "get there" -- to absolute 0 degrees Kelvin?
+  DR. ADAMS
+  Cooling to a lower temperature is a process of lowering the entropy. Entropy is a measure of the disorder or randomness of a system. [Interviewer's note: It helped us to think of entropy as a measure of motion.] Because the entropy is approaching 0 regardless of the state of the material providing the cooling, the amount by which you can decrease the entropy (and the temperature) in one step gets smaller and smaller. Hence, the "finite number of steps." Perhaps the analogy of walking across a room to the opposite wall will help. If you cut your steps in half each time, you would have to take an infinite number of steps to reach the other side of the room. (To make it clearer, you will require a course in thermodynamics!)
+  INTERVIEWER
+  So why do we need a thermometer that measures temperatures that don't even occur in nature? What are some of the potential benefits to be gained from doing research at very cold temperatures?
+  DR. ADAMS
+  Frequently, applications of this "basic" research do not occur until decades after it has occurred. Rarely does one have a "good enough crystal ball" to see that far in advance. For example, magnetic resonance imaging, which is a medical development of the last decade, started as a laboratory curiosity 50 years ago and depends on liquid helium provided by low temperature research. [Interviewer's note: MRI is a non-invasive way to scan brain activity.] There are numerous other examples, e.g. the transistor, lasers, where the applications occur decades later. Basic research is the goose laying the golden eggs, which are the applications. I should make the point that we don't go into this basic research because we expect to find applications. With every interview, there is over emphasis on applications (look at the Time article about absolute zero, the suggested applications are pure BS), which I suppose the public wants to know about. But our work is exploration! Why did Edmund Hillary climb Mt. Everest, why did we send a man to the moon, why have we spent billions on a Hubble Telescope, or effort to land vehicles/probes on the planets, etc.? Do reporters ask about applications of a Mars probe? The applications in that case are zilch, although there may be spinoffs of the technology. 
+   
+   We fight this battle continuously, including with funding agencies. In this very story of helium-3 melting pressure thermometry, a bad effect of the emphasis on technology has been abandonment of the work (and other fundamental research) by the former National Bureau of Standards when it was turned into industry-supporting National Institute of Standards and Technology. The melting pressure work was left to the Germans and university labs.
+  INTERVIEWER
+  What about cryogenics research?
+  DR. ADAMS
+  Perhaps you mean cryonics, or freezing of diseased bodies in the hope of
+   bringing them back to life when a cure for the disease is found. Unfortunately, freezing of the fluid-containing cells in the body destroys them, just like freezing water in a pipe.
+  INTERVIEWER
+  Actually I meant cryogenics, the biopharmaceutical cryopreservation technology used for precisely controlled freezing and thawing of gene therapy products (which thereby increases the effective shelf life of biopharmaceuticals -- drugs made of, or delivered with genetic material) But since you brought it up, I guess we should get directly to the question that inspired this interview: If Mr. Freeze existed, and he shot Batman with his freeze gun set at .0009 degrees Kelvin, what would happen to Batman's body?
+  DR. ADAMS
+  Freezing at 0.0009 K would destroy the fluid-filled cells just as it does now using liquid nitrogen at 77 K.
+  INTERVIEWER
+  Why do things turn blue when they get cold?
+  DR. ADAMS
+  This is not universally true. For example, a blue flame is hotter than a red or yellow one. Many other examples could be cited. For the most part, in cases where cold things are blue, the blue color does not have that much to do with cold. One example where it does is the human body. When it gets cold, the red blood near the surface of the skin recedes (leaving it blue), in order to keep the interior of the body warm, while allowing the skin
+   temperature to drop. In many situations, it is a matter of what happens to the blue and red (plus all colors of the rainbow) that make up white light. Icebergs and the ocean (cold or hot) are blue because water absorbs the red light more than the blue. The sky is blue because particles there scatter blue light more with the red light that makes it to the viewer down below.
+  INTERVIEWER
+  What is the temperature in your house and how closely do you monitor it?
+  DR. ADAMS
+  My house has four zones (different areas) that can be controlled independently by a microprocessor thermostat. WINTERS: during the night, bed room is kept at 64 F, living areas are not heated; during the day, living area is kept at 70 F (mostly by passive solar), bedrooms are not heated. SUMMER: during the night, bedroom is kept at 78, living area is not cooled; during the day, living area is kept at 78, bedrooms are not cooled. During fall and spring, no heating or cooling are required, energy efficient construction keeps house at comfortable temperature. Energy bill is about 1/4 of "normal house."
+  INTERVIEWER
+  Was it expensive to install? Why don't more people do that? Is it because they don't live in temperate climates like Florida? (You couldn't survive a winter in Colorado without heating your bedroom. )
+  DR. ADAMS
+  Various energy efficient features added about 10 percent to the cost of my house. For almost every feature the calculated "pay back" time in term of reduced operating costs was about 5 years or less. So, it was actually a good investment. There has been a slow shift of interest to energy efficient housing, with the EPA energy star program and some builders are beginning to offer energy efficient houses. An impediment has been to try and keep the costs down to be "competitive."
+  INTERVIEWER
+  How careful do you have to be in your laboratory? What would happen if you 
+   spilled some of that extremely cold liquid on you?
+  DR. ADAMS
+  Just ordinary precautions similar to what you would use with a hot liquid. The liquids we use, nitrogen and helium, are in containers and we transfer from these to our "dewars" through a special vacuum jacketed closed tube. Without some mishap you never come into contact with the liquid. However, in the unusual event that you do, you can get a nasty "burn," in which the skin can be frozen, which blisters just like a burn would.
+  INTERVIEWER
+  Your thermometer is called a Straty-Adams Gauge, named for yourself and your then-graduate student assistant Gerald Straty. How did the inspiration for it come about?
+  DR. ADAMS
+  Serendipity played a role. We were interested in the fundamental properties of liquid and solid helium-3, which can be investigated by measuring the melting pressure. We had developed a very sensitive pressure gauge for doing this (the Straty-Adams gauge). When we saw that the pressure, measured with our gauge, was much more sensitive than the
+   thermometer that we were using, the thought occurred to us to use the melting pressure as the thermometer. We did not go into it thinking "How can we develop a sensitive thermometer?"
+  INTERVIEWER
+  How does a Straty-Adams gauge work?
+  DR. ADAMS
+  It has a diaphragm which deflects slightly as the pressure changes (like a balloon increasing in size as it is blown up). A metal plate is attached to the diaphragm, with a second one held very close to it (these form a "capacitor"). Capacitance changes can be measured with high precision, 1 out of 10,000,000 using a "bridge." This means that the gauge can resolve very small changes in pressure, corresponding to very small changes in temperature, a very desirable feature.
+  This works because the helium remains a liquid all the way to absolute zero, with the freezing pressure depending on the temperature. The properties of helium-3 are such that if the gauge is filled with just the right amount of helium at about 1 K, there will be a mixture of liquid and solid at any lower temperature. Then measuring the pressure gives the temperature if you know the relationship between pressure and temperature, i.e P(T). (This is analogous to the expansion of the mercury column in a mercury thermometer.) In addition to thermometry, the gauge has been used for many other studies of materials.
+  By the way, superfluidity in liquid helium-3, for which the 1996 Nobel prize was awarded, was discovered by Osheroff, Richardson, and Lee, using the Straty-Adams gauge to study the melting pressure. They would have not made the discovery without the Straty-Adams gauge.
+  INTERVIEWER
+  I feel like I have to ask this: Why does helium make your voice even higher when you breathe it? Do you ever inhale it at the office for laffs?
+  DR. ADAMS
+  We might do this occasionally to impress visitors when we have tours of the lab. It works not by affecting the vocal cords, but because the velocity of sound in helium is higher than in air.
+  INTERVIEWER
+  Back to the guage. Why does Straty get his name first? He's the graduate student, you're the professor. Shouldn't it be an "Adams-Straty" gauge?
+  DR. ADAMS
+  It is traditional in physics to give grad students and other junior personnel first billing, rather than the professor grabbing all the credit. After all, we are not actors who insist on top billing!
+  INTERVIEWER
+  I might have let that slide except that I know you have run into problems of peers squabbling like actors for top billing in the past. For instance, when some of your peers couldn't agree about the proper calibration of your scale, for instance. Two standards laboratories, the National Institute of Standards and Technology (NIST) in the United States, and the Physikalisch-Techische Bundesanstalt in Germany, each demand to use their own scale. This was just nationalistic political posturing right? Were you upset?
+  DR. ADAMS
+  It is not uncommon for two or more standards labs to be working on something such as this independently so there will be more than one number for comparison. A little history of this may be illuminating. Work on the making the melting pressure the standard started at NIST about 1985, with results first published about 1994. Unfortunately the NIST work went only to 0.006 K, short of the all-important "fixed points" at 0.0025 and 0.0009 K (see papers). So we decided to provide our own standard by incorporating
+   a "primary thermometer," one that does not need calibration, but uses the laws of physics, into our apparatus. Our results were published in 1995 and agreed with NIST in the region of overlap above 0.006 K. So we joined our scale to the NIST scale to provide a UF/NIST scale. The second scale >from PTB came out three years later. It has been subject to criticism by many, including myself and others from NIST, because it did not make use of a primary thermometer. Instead it used extrapolation of a secondary
+   thermometer (one which must be calibrated) from higher temperatures. Although the PTB scale was based on less than ideal thermometry, they had the benefit of being a "standards lab" and used this to argued vehemently that their scale should be adopted outright, ignoring the UF work. In fact, the UF work was the only in the world using a primary thermometer to measure the fixed points, which should have been a requirement for a
+   standard. A calculation by Marten Durieux and Les Reesink at Leiden University showed that the PTB results were not thermodynamically consistent, a crucial requirement. This convinced PTB that they would have to settle for an "average" between the UF/NIST scale and theirs. Actually, the difference is fairly small (lowest fixed point is to be T = 0.00090 K for ITS-2000, vs 0.00093 for UF and 0.00088 for PTB). So, yes I would say that there was some "posturing" by PTB to try to discredit the UF work and to have theirs adopted. Had we had the clout of a "standards lab" we would have argued adamantly that our numbers were the only ones to consider since
+   only we had used a primary thermometer. Re "was I upset," let's just say I was not pleased. However, there is considerable satisfaction in seeing our 35-year old idea finally to be the basis for ITS-2000!
+  INTERVIEWER
+  So your scale is coming up for approval in September at the ITS-2000 meeting in Paris. Do you predict any problems this time around?
+  DR. ADAMS
+  Since there is no dissension in Working Group Four on its recommendation,
+   lack of approval by CCT in Paris in April and subsequently by ICMW in
+   September is exceedingly unlikely.
+  INTERVIEWER
+  Do scientists wield too little, or too much power in our society?
+  DR. ADAMS
+  From my perspective, I would say that it is usually too little. Most decisions on what to do about problems for which there is a scientific answer get decided on the politics not the science -- e.g., global warming. Scientists are usually in the role of providing the information, but letting the politicians make the decisions. Sometimes the more venturesome ones take up a cause and advocate a solution, such as in my pushing recycling and other alternatives to land-filling and incineration of wastes.
+  INTERVIEWER
+  What's next? What will you be working on in the future?
+  DR. ADAMS
+  Most of the work is on magnetism of solid helium-3, to determine what type of behavior occurs when the disruptive thermal motion has been reduced to as little as possible by going to lower temperatures, e.g. ferromagnetism (similar to an iron magnetic) in a high pressure form; helium-3 in unusual surroundings where surface effects may be important -- all esoteric stuff.
+  INTERVIEWER
+  You know the snowy tree cricket, whose chirping song resembles gently ringing sleigh bells, can also be used to calculate the temperature. (The rate of their chirp is invariably a function of how warm it is) Have you ever thought of using microorganisms or other bio- material to measure extremely low temperatures?
+  DR. ADAMS.
+  I'm familiar with the "cricket temperature scale," but never thought of using anything of this sort. I doubt that there are any that would function at the low temperatures that we reach. If there is water in the cells, they might be destroyed upon freezing. So we tend to think in terms of some temperature-dependent physical parameter.
+  INTERVIEWER
+  Oh.
+  &nbsp;
+  &nbsp;
+date: 05/15/00
+article_url: http://mcsweeneys.net/2000/05/15dwightadams.html
+article_size: 15153

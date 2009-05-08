@@ -1,0 +1,102 @@
+--- 
+lines: 
+- Stanley Kubrick may be gone, but he will surely live on, not only in his films -- which we have heard are exceptional -- but in the headlines conjured up by culturally astute newspaperpeople worldwide.
+- "Following, the results of a Lexis-Nexis search of \"2001: A [insert topical noun here] Oddity."
+- |
+  
+
+- "\"2001 a Race Oddity: Molinari backs Hevesi\""
+- |
+  
+
+- NY Post, 3/3/99)
+- "\"2001, a Divorce Oddity: Pension splitting reforms are so attractive that it could well pay for the unhappily married to wait\""
+- |
+  
+
+- The Guardian, 2/27/99)
+- "\"2001, a Campaign Oddity: Candidate Alan Hevesi must return $100,000\""
+- |
+  
+
+- NY Observer 1/13/99)
+- "\"2001, a Time Oddity: The next century begins in 2001, not 2000 but don't tell the party animals\""
+- |
+  
+
+- Louisville Courier-Journal, 6/19/98)
+- "\"2001, a Chronometric Oddity\""
+- |
+  
+
+- The Independent, 4/9/98)
+- "\"2001, a Linguistics Oddity: pronouncements on millennium easier than pronounciations \""
+- |
+  
+
+- Austin American Statesman, 9/2/97)
+- "\"2001, a Spaced Oddity: How to use the end of the millennium to inspire fear, arouse enthusiasm and boost sales\""
+- |
+  
+
+- Marketing Tools, 6/97)
+- "\"3001 [yes, '3'], a Taste Oddity\""
+- |
+  
+
+- The Times, 3/22/97)
+- "\"2001, An IS Oddity: We may be misguided in our scramble to fix legacy code."
+- |
+  
+
+- How about targeting critically-affected business applications instead?
+- "\" (Information Week, 1/27/97)"
+- "\"2001, Not Such an Oddity: Space Odyssey's sinister HAL remains more than a match for today's computers\""
+- |
+  
+
+- The Observer, 1/5/97)
+- "\"2001 Will be a Real Speech Oddity: the real problem with year 2000\""
+- |
+  
+
+- Austin American Statesman, 10/14/96)
+- |
+  
+
+downcase_name: this.is.a.headline.with........in.it_by.stuart.wad
+author: By Stuart Wade
+title: This is a Headline With "2001" in it
+text: |-
+  Stanley Kubrick may be gone, but he will surely live on, not only in his
+  films -- which we have heard are exceptional -- but in the headlines
+  conjured up by culturally astute newspaperpeople worldwide.
+  Following, the results of a Lexis-Nexis search of "2001: A [insert
+  topical noun here] Oddity."
+  - - - -
+  "2001 a Race Oddity: Molinari backs Hevesi" (NY Post, 3/3/99)
+  "2001, a Divorce Oddity: Pension splitting reforms are so attractive
+  that it could well pay for the unhappily married to wait" (The Guardian,
+  2/27/99)
+  "2001, a Campaign Oddity: Candidate Alan Hevesi must return $100,000"
+  (NY Observer 1/13/99)
+  "2001, a Time Oddity: The next century begins in 2001, not 2000 but
+  don't tell the party animals" (Louisville Courier-Journal, 6/19/98)
+  "2001, a Chronometric Oddity" (The Independent, 4/9/98)
+  "2001, a Linguistics Oddity: pronouncements on millennium easier than
+  pronounciations " (Austin American Statesman, 9/2/97)
+  "2001, a Spaced Oddity: How to use the end of the millennium to inspire
+  fear, arouse enthusiasm and boost sales" (Marketing Tools, 6/97)
+  "3001 [yes, '3'], a Taste Oddity" (The Times, 3/22/97)
+  "2001, An IS Oddity: We may be misguided in our scramble to fix legacy
+  code. How about targeting critically-affected business applications
+  instead?" (Information Week, 1/27/97)
+  "2001, Not Such an Oddity: Space Odyssey's sinister HAL remains more
+  than a match for today's computers" (The Observer, 1/5/97)
+  "2001 Will be a Real Speech Oddity: the real problem with year 2000"
+  (Austin American Statesman, 10/14/96)
+  &nbsp;
+  &nbsp;
+date: 03/23/99
+article_url: http://mcsweeneys.net/1999/03/22kubrick.html
+article_size: 1543

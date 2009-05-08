@@ -1,0 +1,344 @@
+--- 
+lines: 
+- BY  THOM VERRATTI
+- |
+  
+
+- At the Bookstore
+- CLERK
+- Next!
+- YOU
+- Good morning.
+- |
+  
+
+- I should like to purchase these volumes.
+- CLERK
+- Okey dokey.
+- |
+  
+
+- Let's see, the Dean Koontz boxed set,  Canning at Home , and the new James Garfield biography.
+- |
+  
+
+- That will be $72.
+- |
+  
+
+- Would you like a bag?
+- YOU
+- No, I'm going to juggle them on the way out.
+- CLERK
+- All righty.
+- YOU exit through front door, juggling the volumes with ease.
+- |
+  
+
+- Tipping the Movers
+- JAKE
+- That's the last of the boxes, there.
+- YOU
+- Thank you.
+- |
+  
+
+- Here is a shiny fifty-cent piece for each of your men, and an extra Susan B. Anthony dollar for you.
+- JAKE
+- |
+  
+
+- YOU
+- I will be sure to recommend your services to others.
+- JAKE
+- You understand that we know where you live, don't cha?
+- YOU
+- Yes, you certainly do.
+- |
+  
+
+- Alternate if Your Name is Also Jake
+- YOU
+- From one Jake to another &#8230; you certainly do.
+- |
+  
+
+- Ordering P&acirc;t&eacute; de Foie Gras
+- YOU
+- I'd like a tureen of your finest foie gras, Pierre.
+- DAVID
+- My name is David.
+- YOU
+- You French are not known for your sense of humor.
+- DAVID
+- This is a library.
+- YOU
+- And at these prices, I can see why.
+- DAVID
+- You are sitting in a potted palm.
+- YOU
+- See, did you even get that?
+- |
+  
+
+- "\"And at these prices, I can see why."
+- "\" Get it?"
+- |
+  
+
+- Enjoying Girl Talk with Jodie Foster
+- JODIE
+- So I've got an idea for my next project.
+- |
+  
+
+- A sequel to  Freaky Friday.
+- |
+  
+
+- It's called  Mutanty Monday.
+- |
+  
+
+- I play my own mother and also this girl pianist with three arms.
+- |
+  
+
+- Gotta get the rights from Mary Rodgers, though.
+- HOLLY HUNTER
+- There a part for me?
+- JODIE
+- Of course, Holly!
+- |
+  
+
+- You play the piano.
+- They laugh.
+- YOU
+- So, how about that John Hinckley Jr.
+- |
+  
+
+- HOLLY
+- |
+  
+
+- Security, please.
+- |
+  
+
+- The Cube Root of 162
+- SCIENTIST
+- Hmm.
+- |
+  
+
+- Dang it, I need the cube root of 162 and my calculator's at the dry cleaners.
+- YOU
+- How many significant figures?
+- SCIENTIST
+- Fourteen, actually.
+- |
+  
+
+- I know it's a lot to ask.
+- YOU
+- No problem.
+- |
+  
+
+- Alternate if the Requirement is for the Cube Root of 163 Rather than the Cube Root of 162
+- YOU
+- No problem.
+- |
+  
+
+- Meeting the Puppet-Leader of an Oppressed Country the Day After a Bloodless Coup
+- YOU
+- From my country to yours I am extending a most beneficent hand in empathy.
+- C&Eacute;SAR
+- It is an honor.
+- YOU
+- Can you order your houseboy to please direct me to your facilities?
+- C&Eacute;SAR
+- Your accent, it is impeccable.
+- YOU
+- Yes, isn't it?
+- |
+  
+
+- Not Winning $1,000,000 in the Publisher's Clearinghouse Sweepstakes
+- ED McMAHON
+- |
+  
+
+- We're here at the home of our latest million-dollar sweepstakes winner, Mrs. Sally Fantine of Fresno, California!
+- SALLY
+- |
+  
+
+- Yes?
+- ED
+- Are you Mrs. Sally Fantine?
+- SALLY
+- Yes &#8230; Oh my god!
+- |
+  
+
+- You're Ed McMahon!
+- |
+  
+
+- Have I&#8212;
+- ED
+- You bet you have, Sally!
+- |
+  
+
+- You've won $1,000,000!
+- CUT TO
+- YOU
+- |
+  
+
+- Damn it all!
+- |
+  
+
+- I forgot to mail my entry.
+- GHOST OF JAMES GARFIELD
+- |
+  
+
+- That doesn't matter.
+- |
+  
+
+- I heard that they only pick people who order the magazines.
+- YOU
+- |
+  
+
+- Gah!
+- |
+  
+
+downcase_name: scripts.for.everyday.use_by.thom.verratti
+author: By Thom Verratti
+title: Scripts for Everyday Use
+text: |-
+  BY  THOM VERRATTI
+  - - - -
+  At the Bookstore
+  CLERK
+  Next!
+  YOU
+  Good morning. I should like to purchase these volumes.
+  CLERK
+  Okey dokey. Let's see, the Dean Koontz boxed set,  Canning at Home , and the new James Garfield biography. That will be $72.31 with tax. Would you like a bag?
+  YOU
+  No, I'm going to juggle them on the way out.
+  CLERK
+  All righty.
+  YOU exit through front door, juggling the volumes with ease.
+  - - - -
+  Tipping the Movers
+  JAKE
+  That's the last of the boxes, there.
+  YOU
+  Thank you. Here is a shiny fifty-cent piece for each of your men, and an extra Susan B. Anthony dollar for you.
+  JAKE
+  (grunts)
+  YOU
+  I will be sure to recommend your services to others.
+  JAKE
+  You understand that we know where you live, don't cha?
+  YOU
+  Yes, you certainly do.
+  * Alternate if Your Name is Also Jake
+  YOU
+  From one Jake to another &#8230; you certainly do.
+  - - - -
+  Ordering P&acirc;t&eacute; de Foie Gras
+  YOU
+  I'd like a tureen of your finest foie gras, Pierre.
+  DAVID
+  My name is David.
+  YOU
+  You French are not known for your sense of humor.
+  DAVID
+  This is a library.
+  YOU
+  And at these prices, I can see why.
+  DAVID
+  You are sitting in a potted palm.
+  YOU
+  See, did you even get that? "And at these prices, I can see why." Get it?
+  - - - -
+  Enjoying Girl Talk with Jodie Foster
+  JODIE
+  So I've got an idea for my next project. A sequel to  Freaky Friday.  It's called  Mutanty Monday.  I play my own mother and also this girl pianist with three arms. Gotta get the rights from Mary Rodgers, though.
+  HOLLY HUNTER
+  There a part for me?
+  JODIE
+  Of course, Holly! You play the piano.
+  They laugh.
+  YOU
+  So, how about that John Hinckley Jr. thing, huh?
+  HOLLY
+  (picking up the phone)
+  Security, please.
+  - - - -
+  The Cube Root of 162
+  SCIENTIST
+  Hmm. Dang it, I need the cube root of 162 and my calculator's at the dry cleaners.
+  YOU
+  How many significant figures?
+  SCIENTIST
+  Fourteen, actually. I know it's a lot to ask.
+  YOU
+  No problem. 5.45136177849642.
+  * Alternate if the Requirement is for the Cube Root of 163 Rather than the Cube Root of 162
+  YOU
+  No problem. 5.46255557128140.
+  - - - -
+  Meeting the Puppet-Leader of an Oppressed Country the Day After a Bloodless Coup
+  YOU
+  From my country to yours I am extending a most beneficent hand in empathy.
+  C&Eacute;SAR
+  It is an honor.
+  YOU
+  Can you order your houseboy to please direct me to your facilities?
+  C&Eacute;SAR
+  Your accent, it is impeccable.
+  YOU
+  Yes, isn't it?
+  - - - -
+  Not Winning $1,000,000 in the Publisher's Clearinghouse Sweepstakes
+  ED McMAHON
+  (ringing doorbell)
+  We're here at the home of our latest million-dollar sweepstakes winner, Mrs. Sally Fantine of Fresno, California!
+  SALLY
+  (opening door)
+  Yes?
+  ED
+  Are you Mrs. Sally Fantine?
+  SALLY
+  Yes &#8230; Oh my god! You're Ed McMahon! Have I&#8212;
+  ED
+  You bet you have, Sally! You've won $1,000,000!
+  CUT TO
+  YOU
+  (sitting in front of a television)
+  Damn it all! I forgot to mail my entry.
+  GHOST OF JAMES GARFIELD
+  (materializing)
+  That doesn't matter. I heard that they only pick people who order the magazines.
+  YOU
+  (succumbing to a sudden heart attack)
+  Gah!
+  &nbsp;
+  &nbsp;
+date: 6/24/03
+article_url: http://mcsweeneys.net/2003/06/24scripts.html
+article_size: 3023
