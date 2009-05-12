@@ -77,7 +77,7 @@ class IRC
         while true
             ready = select([@irc, $stdin], nil, nil, nil)
             if !ready
-              sleep(0.1)
+              sleep(1)
               next
             end
             for s in ready[0]

@@ -8,10 +8,13 @@ class LineParser
     @in_quoted_sentence = false
     
     @lines = [] 
-    split_contents.each do |spc|
-      # puts "spc: " + spc
+    
+    spc = split_contents.join("\n")
+      puts "spc: " + spc
+      
       growing_string = ""
       @prev_chars = []
+      add_to_next = ""
       spc.chars.each do |c|
         char = c.to_s
         if char.match(/[A-Z]/) && between_sentences?
@@ -30,27 +33,84 @@ class LineParser
         else
           growing_string += char
         end
+        # if between_sentences? && growing_string.size > 1
+        #   begin_sentence!
+        # end
         if between_sentences?
           stipped_line = growing_string.strip
           if stipped_line.size > 1
-            @lines << stipped_line
-            # puts "#{@sentence_stack} - #{@quote_stack} - #{@in_quoted_sentence} - #{stipped_line}"
-          elsif @lines.last != "\n"
-            @lines << "\n"
+            to_add = add_to_next + stipped_line
+            # puts "to add:  " + to_add
+            if to_add.count("\"") % 2 != 0
+              to_add = to_add.gsub("\"","")
+            end
+            @lines << to_add
+          else
+            add_to_next = stipped_line
           end
-          growing_string = ""
+            # puts "#{@sentence_stack} - #{@quote_stack} - #{@in_quoted_sentence} - #{stipped_line}"
+          # elsif @lines.last != "\n"
+          #   @lines << "\n"
+          # elsif growing_string.size > 0
+          #   puts "threw away string: #{growing_string}"
+          # end
+          growing_string = ""          
         end
         @prev_chars.push char
       end
-      stipped_line = growing_string.strip
-      if stipped_line.size > 1
-        @lines << stipped_line
-        # puts "-- #{@sentence_stack} - #{@quote_stack} - #{@in_quoted_sentence} - #{stipped_line}"
-      end
+      # stipped_line = growing_string.strip
+      # if stipped_line.size > 1
+      #   @lines << stipped_line
+      #   # puts "-- #{@sentence_stack} - #{@quote_stack} - #{@in_quoted_sentence} - #{stipped_line}"
+      # end
       @quote_stack = 0
       @sentence_stack = 0
       @in_quoted_sentence = false
-    end
+    
+    
+    # split_contents.each do |spc|
+    #   # puts "spc: " + spc
+    #   growing_string = ""
+    #   @prev_chars = []
+    #   spc.chars.each do |c|
+    #     char = c.to_s
+    #     if char.match(/[A-Z]/) && between_sentences?
+    #       begin_sentence!
+    #     end
+    #     if char.match(/[\.\?\!]/)
+    #       if break_on_this_period?
+    #         end_sentence!
+    #       end
+    #     end
+    #     if char.match(/"/)
+    #       quote_found!
+    #     end
+    #     if char.match(/\n/)
+    #       growing_string += " "          
+    #     else
+    #       growing_string += char
+    #     end
+    #     if between_sentences?
+    #       stipped_line = growing_string.strip
+    #       if stipped_line.size > 1
+    #         @lines << stipped_line
+    #         # puts "#{@sentence_stack} - #{@quote_stack} - #{@in_quoted_sentence} - #{stipped_line}"
+    #       elsif @lines.last != "\n"
+    #         @lines << "\n"
+    #       end
+    #       growing_string = ""
+    #     end
+    #     @prev_chars.push char
+    #   end
+    #   stipped_line = growing_string.strip
+    #   if stipped_line.size > 1
+    #     @lines << stipped_line
+    #     # puts "-- #{@sentence_stack} - #{@quote_stack} - #{@in_quoted_sentence} - #{stipped_line}"
+    #   end
+    #   @quote_stack = 0
+    #   @sentence_stack = 0
+    #   @in_quoted_sentence = false
+    # end
   end
   
   def break_on_this_period?

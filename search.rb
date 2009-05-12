@@ -6,7 +6,18 @@ require 'yaml'
 
 class Search
   include FTSearch
-  attr_reader :index
+  attr_reader :index, :index_loaded
+  
+  def self.index_file_paths
+    base_path = File.join(File.dirname(__FILE__), 'indexes')
+    FileUtils.mkdir_p(base_path)
+    {
+      :fulltext_index => File.join(base_path, "fulltext_index"),
+      :suffix_array_index => File.join(base_path, "suffix_array_index"),
+      :doc_map_index => File.join(base_path, "doc_map_index")
+    }
+  end
+  
   def initialize fields = [:title, :text]
     field_infos = FTSearch::FieldInfos.new
     fields.each do |name|
@@ -14,16 +25,38 @@ class Search
         :analyzer => FTSearch::Analysis::SimpleIdentifierAnalyzer.new
     end
     @index = FTSearch::FragmentWriter.new :path => nil, :field_infos => field_infos
+    self.load_indexes_from_file
   end
+  
+  def load_indexes_from_file
+    file_paths = Search.index_file_paths
+    if File.exists?(file_paths[:fulltext_index])
+      @ft = FulltextReader.new :io => StringIO.new(File.read(file_paths[:fulltext_index]))
+    end
+    if File.exists?(file_paths[:suffix_array_index])
+      @sa = SuffixArrayReader.new @ft, nil, :io => StringIO.new(File.read(file_paths[:suffix_array_index]))
+    end
+    if File.exists?(file_paths[:doc_map_index])
+      @dm = DocumentMapReader.new :io => StringIO.new(File.read(file_paths[:doc_map_index]))
+    end
+    @index_loaded = (@ft && @sa && @dm)
+  end
+  
   def add_document hsh
     @index.add_document hsh
   end
   def finish!
-    @index.finish!
+    unless @index_loaded
+      @index.finish!
 
-    @ft = FulltextReader.new :io => StringIO.new(@index.fulltext_writer.data)
-    @sa = SuffixArrayReader.new @ft, nil, :io => StringIO.new(@index.suffix_array_writer.data)
-    @dm = DocumentMapReader.new :io => StringIO.new(@index.doc_map_writer.data)
+      @ft = FulltextReader.new :io => StringIO.new(@index.fulltext_writer.data)
+      @sa = SuffixArrayReader.new @ft, nil, :io => StringIO.new(@index.suffix_array_writer.data)
+      @dm = DocumentMapReader.new :io => StringIO.new(@index.doc_map_writer.data)
+      file_paths = Search.index_file_paths
+      File.open(file_paths[:fulltext_index], "w+"){ |fp| fp.write(@index.fulltext_writer.data) }
+      File.open(file_paths[:suffix_array_index], "w+"){ |fp| fp.write(@index.suffix_array_writer.data) }
+      File.open(file_paths[:doc_map_index], "w+"){ |fp| fp.write(@index.doc_map_writer.data) }
+    end
   end
   def find_all terms, show = 100, prob_sort = false
     h = Hash.new{|h,k| h[k] = 0}
@@ -57,14 +90,18 @@ class Search
     
     combined_terms_array = []
     combiner = Proc.new do |num_terms, min_term_size|
+      puts "running with #{num_terms} #{min_term_size}"
       prev_terms = []
       terms_array.each do |term|
         combined_terms_in_reverse = [term]
-        if prev_terms.size >= num_terms-1 && (prev_terms + [term]).detect{|t| t.size > min_term_size}
+        if prev_terms.size >= num_terms-1# && (prev_terms + [term]).detect{|t| t.size > min_term_size}
           prev_terms.reverse[0,num_terms-1].each do |prev_term|
             combined_terms_in_reverse << prev_term
           end
-          combined_terms_array << combined_terms_in_reverse.reverse.join(" ")
+          if combined_terms_in_reverse.detect{|t| t.size > min_term_size}
+            puts "combined_terms_in_reverse: " + combined_terms_in_reverse.inspect
+            combined_terms_array << combined_terms_in_reverse.reverse.join(" ")
+          end
         end
         prev_terms.push(term)
       end
@@ -77,6 +114,9 @@ class Search
     # combiner.call(3, 2)
     # combiner.call(2, 5)
     # combiner.call(1, 8)
+    
+    # puts "combined_terms_array: " + combined_terms_array.inspect
+    # raise "End"
     
     to_return = []
     # results = []
